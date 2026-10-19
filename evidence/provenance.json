@@ -1,0 +1,10 @@
+{
+  "prepared_date": "2026-10-15",
+  "upstream_repository": "https://github.com/seancoughlan29/cs4928-g12",
+  "uploaded_repository_zip_comment_commit": "54880a2294321635a1eaf834cc5877a3ca90786c",
+  "remote_access": "404 through connected account dylanwperry04-creator; no remote writes or tags",
+  "original_artefact_zip_sha256": "b02a21614d744a719255514c285d8cfb3070680a913ab320e72db9eedbc871bc",
+  "uploaded_repository_zip_sha256": "67aa69f2f18f18d9ec3a779994b777133119f10b86e8a90246db4c6dbc262bd4",
+  "milestone_status": "M1 READY and remote tags unverified; full reproduction not run",
+  "event_material_used": false
+}

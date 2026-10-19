@@ -1,0 +1,82 @@
+[
+  {
+    "batch_id": "batch_01",
+    "case_ids": [
+      "dataset:000001",
+      "dataset:000002",
+      "dataset:000003",
+      "dataset:000004",
+      "dataset:000005",
+      "dataset:000006",
+      "dataset:000007",
+      "dataset:000008",
+      "dataset:000009",
+      "dataset:000010"
+    ],
+    "response_file": "batch_01.txt"
+  },
+  {
+    "batch_id": "batch_02",
+    "case_ids": [
+      "dataset:000011",
+      "dataset:000012",
+      "dataset:000013",
+      "dataset:000014",
+      "dataset:000015",
+      "dataset:000016",
+      "dataset:000017",
+      "dataset:000018",
+      "dataset:000019",
+      "dataset:000020"
+    ],
+    "response_file": "batch_02.txt"
+  },
+  {
+    "batch_id": "batch_03",
+    "case_ids": [
+      "dataset:000021",
+      "dataset:000022",
+      "dataset:000023",
+      "dataset:000024",
+      "dataset:000025",
+      "dataset:000026",
+      "dataset:000027",
+      "dataset:000028",
+      "dataset:000029",
+      "dataset:000030"
+    ],
+    "response_file": "batch_03.txt"
+  },
+  {
+    "batch_id": "batch_04",
+    "case_ids": [
+      "dataset:000031",
+      "dataset:000032",
+      "dataset:000033",
+      "dataset:000034",
+      "dataset:000035",
+      "dataset:000036",
+      "dataset:000037",
+      "dataset:000038",
+      "dataset:000039",
+      "dataset:000040"
+    ],
+    "response_file": "batch_04.txt"
+  },
+  {
+    "batch_id": "batch_05",
+    "case_ids": [
+      "dataset:000041",
+      "dataset:000042",
+      "dataset:000043",
+      "dataset:000044",
+      "dataset:000045",
+      "dataset:000046",
+      "dataset:000047",
+      "dataset:000048",
+      "dataset:000049",
+      "dataset:000050"
+    ],
+    "response_file": "batch_05.txt"
+  }
+]

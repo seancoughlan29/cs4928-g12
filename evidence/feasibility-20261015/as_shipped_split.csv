@@ -1,0 +1,2190 @@
+case_id,label,partition,validation_fold
+augmented:000000,Task,train_cv,5
+augmented:000001,Not a smell,train_cv,4
+augmented:000002,Beautification,train_cv,8
+augmented:000003,Beautification,train_cv,9
+augmented:000004,Obvious,train_cv,1
+augmented:000005,Not a smell,train_cv,6
+augmented:000006,Not a smell,train_cv,5
+augmented:000007,Not a smell,train_cv,6
+augmented:000008,Beautification,train_cv,2
+augmented:000009,Obvious,train_cv,5
+augmented:000010,Not a smell,train_cv,3
+augmented:000011,Obvious,train_cv,5
+augmented:000012,Obvious,train_cv,4
+augmented:000013,Commented out code,held_out,
+augmented:000014,Task,train_cv,2
+augmented:000015,Not a smell,train_cv,5
+augmented:000016,Obvious,train_cv,9
+augmented:000017,Obvious,train_cv,2
+augmented:000018,Obvious,train_cv,3
+augmented:000019,Obvious,train_cv,7
+augmented:000020,Obvious,train_cv,7
+augmented:000021,Obvious,train_cv,9
+augmented:000022,Not a smell,train_cv,3
+augmented:000023,Task,held_out,
+augmented:000024,Not a smell,train_cv,2
+augmented:000025,Task,train_cv,3
+augmented:000026,Not a smell,train_cv,10
+augmented:000027,Not a smell,train_cv,6
+augmented:000028,Task,train_cv,4
+augmented:000029,Not a smell,held_out,
+augmented:000030,Obvious,train_cv,10
+augmented:000031,Obvious,train_cv,6
+augmented:000032,Obvious,train_cv,9
+augmented:000033,Obvious,train_cv,5
+augmented:000034,Task,train_cv,6
+augmented:000035,Obvious,train_cv,7
+augmented:000036,Not a smell,train_cv,4
+augmented:000037,Not a smell,train_cv,2
+augmented:000038,Not a smell,train_cv,10
+augmented:000039,Vague,train_cv,6
+augmented:000040,Obvious,train_cv,6
+augmented:000041,Not a smell,train_cv,1
+augmented:000042,Obvious,train_cv,6
+augmented:000043,Obvious,train_cv,4
+augmented:000044,Obvious,held_out,
+augmented:000045,Obvious,train_cv,8
+augmented:000046,Obvious,train_cv,7
+augmented:000047,Obvious,train_cv,4
+augmented:000048,Obvious,train_cv,8
+augmented:000050,Beautification,held_out,
+augmented:000051,Task,train_cv,8
+augmented:000052,Not a smell,held_out,
+augmented:000053,Vague,train_cv,4
+augmented:000054,Task,train_cv,1
+augmented:000055,Not a smell,train_cv,6
+augmented:000056,Vague,train_cv,5
+augmented:000057,Not a smell,held_out,
+augmented:000058,Task,train_cv,7
+augmented:000059,Not a smell,train_cv,4
+augmented:000060,Obvious,held_out,
+augmented:000061,Not a smell,train_cv,6
+augmented:000062,Not a smell,train_cv,1
+augmented:000063,Not a smell,train_cv,1
+augmented:000064,Not a smell,held_out,
+augmented:000065,Not a smell,train_cv,2
+augmented:000066,Not a smell,held_out,
+augmented:000067,Not a smell,train_cv,2
+augmented:000068,Not a smell,held_out,
+augmented:000069,Not a smell,train_cv,6
+augmented:000070,Task,held_out,
+augmented:000071,Obvious,held_out,
+augmented:000072,Not a smell,held_out,
+augmented:000073,Obvious,train_cv,1
+augmented:000074,Not a smell,held_out,
+augmented:000075,Not a smell,train_cv,2
+augmented:000076,Not a smell,train_cv,2
+augmented:000077,Not a smell,held_out,
+augmented:000078,Not a smell,train_cv,1
+augmented:000079,Obvious,train_cv,2
+augmented:000080,Not a smell,train_cv,1
+augmented:000081,Obvious,train_cv,1
+augmented:000082,Not a smell,train_cv,10
+augmented:000083,Obvious,train_cv,9
+augmented:000084,Vague,train_cv,8
+augmented:000085,Obvious,train_cv,2
+augmented:000086,Obvious,train_cv,5
+augmented:000087,Not a smell,train_cv,10
+augmented:000088,Not a smell,train_cv,3
+augmented:000089,Not a smell,train_cv,1
+augmented:000090,Obvious,train_cv,3
+augmented:000091,Task,train_cv,4
+augmented:000092,Obvious,train_cv,4
+augmented:000093,Task,train_cv,6
+augmented:000094,Not a smell,train_cv,6
+augmented:000095,Not a smell,train_cv,5
+augmented:000096,Not a smell,train_cv,7
+augmented:000097,Not a smell,held_out,
+augmented:000098,Not a smell,train_cv,8
+augmented:000099,Not a smell,train_cv,1
+augmented:000100,Not a smell,held_out,
+augmented:000101,Not a smell,held_out,
+augmented:000102,Task,train_cv,5
+augmented:000103,Obvious,train_cv,5
+augmented:000104,Not a smell,train_cv,4
+augmented:000105,Task,train_cv,7
+augmented:000106,Task,held_out,
+augmented:000107,Not a smell,train_cv,8
+augmented:000108,Vague,train_cv,2
+augmented:000109,Not a smell,train_cv,9
+augmented:000110,Not a smell,held_out,
+augmented:000111,Obvious,train_cv,3
+augmented:000112,Obvious,held_out,
+augmented:000113,Obvious,train_cv,5
+augmented:000114,Not a smell,train_cv,2
+augmented:000115,Obvious,train_cv,3
+augmented:000116,Vague,held_out,
+augmented:000117,Not a smell,train_cv,6
+augmented:000118,Not a smell,train_cv,3
+augmented:000119,Not a smell,train_cv,8
+augmented:000120,Task,train_cv,9
+augmented:000121,Task,held_out,
+augmented:000122,Not a smell,held_out,
+augmented:000123,Task,train_cv,10
+augmented:000124,Not a smell,train_cv,6
+augmented:000125,Not a smell,held_out,
+augmented:000126,Vague,train_cv,5
+augmented:000127,Not a smell,train_cv,4
+augmented:000128,Obvious,train_cv,7
+augmented:000129,Not a smell,held_out,
+augmented:000130,Not a smell,train_cv,10
+augmented:000131,Not a smell,train_cv,7
+augmented:000132,Not a smell,train_cv,5
+augmented:000133,Not a smell,train_cv,3
+augmented:000134,Not a smell,train_cv,5
+augmented:000135,Not a smell,held_out,
+augmented:000136,Obvious,held_out,
+augmented:000137,Not a smell,train_cv,6
+augmented:000138,Task,train_cv,8
+augmented:000139,Obvious,train_cv,8
+augmented:000140,Not a smell,train_cv,6
+augmented:000141,Not a smell,train_cv,4
+augmented:000143,Not a smell,train_cv,8
+augmented:000144,Not a smell,train_cv,7
+augmented:000145,Obvious,train_cv,4
+augmented:000147,Not a smell,train_cv,4
+augmented:000148,Task,train_cv,7
+augmented:000149,Obvious,train_cv,6
+augmented:000150,Obvious,train_cv,7
+augmented:000151,Obvious,train_cv,9
+augmented:000152,Obvious,train_cv,7
+augmented:000153,Obvious,train_cv,3
+augmented:000154,Not a smell,train_cv,9
+augmented:000155,Obvious,train_cv,7
+augmented:000156,Not a smell,train_cv,10
+augmented:000157,Not a smell,train_cv,5
+augmented:000158,Obvious,train_cv,1
+augmented:000159,Not a smell,train_cv,6
+augmented:000160,Not a smell,train_cv,10
+augmented:000161,Obvious,train_cv,1
+augmented:000162,Obvious,train_cv,5
+augmented:000163,Obvious,train_cv,1
+augmented:000164,Task,train_cv,5
+augmented:000165,Not a smell,train_cv,1
+augmented:000166,Obvious,train_cv,10
+augmented:000167,Not a smell,train_cv,5
+augmented:000168,Obvious,train_cv,2
+augmented:000169,Obvious,train_cv,8
+augmented:000170,Not a smell,train_cv,5
+augmented:000171,Not a smell,held_out,
+augmented:000172,Not a smell,train_cv,7
+augmented:000173,Obvious,train_cv,5
+augmented:000174,Obvious,train_cv,8
+augmented:000175,Not a smell,train_cv,2
+augmented:000176,Not a smell,held_out,
+augmented:000177,Not a smell,train_cv,4
+augmented:000178,Not a smell,train_cv,2
+augmented:000179,Not a smell,train_cv,6
+augmented:000180,Not a smell,train_cv,10
+augmented:000181,Task,held_out,
+augmented:000182,Obvious,held_out,
+augmented:000183,Commented out code,train_cv,1
+augmented:000184,Obvious,train_cv,9
+augmented:000185,Not a smell,train_cv,2
+augmented:000186,Task,train_cv,7
+augmented:000187,Not a smell,held_out,
+augmented:000188,Not a smell,held_out,
+augmented:000189,Obvious,train_cv,6
+augmented:000190,Not a smell,train_cv,7
+augmented:000191,Obvious,held_out,
+augmented:000192,Obvious,train_cv,3
+augmented:000193,Obvious,train_cv,4
+augmented:000194,Not a smell,train_cv,3
+augmented:000195,Not a smell,held_out,
+augmented:000196,Not a smell,train_cv,2
+augmented:000197,Not a smell,train_cv,10
+augmented:000198,Not a smell,train_cv,7
+augmented:000199,Commented out code,held_out,
+augmented:000200,Beautification,train_cv,2
+augmented:000201,Beautification,held_out,
+augmented:000202,Task,train_cv,7
+augmented:000203,Vague,train_cv,10
+augmented:000204,Vague,train_cv,10
+augmented:000205,Not a smell,train_cv,10
+augmented:000206,Not a smell,train_cv,1
+augmented:000207,Task,train_cv,10
+augmented:000208,Commented out code,held_out,
+augmented:000209,Task,train_cv,3
+augmented:000210,Not a smell,train_cv,6
+augmented:000211,Not a smell,train_cv,9
+augmented:000212,Not a smell,train_cv,10
+augmented:000213,Commented out code,held_out,
+augmented:000214,Not a smell,held_out,
+augmented:000215,Not a smell,held_out,
+augmented:000216,Obvious,train_cv,6
+augmented:000217,Not a smell,train_cv,10
+augmented:000218,Commented out code,train_cv,8
+augmented:000219,Not a smell,train_cv,10
+augmented:000220,Not a smell,train_cv,7
+augmented:000221,Not a smell,held_out,
+augmented:000222,Obvious,train_cv,2
+augmented:000223,Task,held_out,
+augmented:000224,Vague,train_cv,4
+augmented:000225,Obvious,train_cv,9
+augmented:000226,Not a smell,train_cv,9
+augmented:000227,Beautification,train_cv,8
+augmented:000228,Not a smell,train_cv,10
+augmented:000229,Not a smell,train_cv,7
+augmented:000230,Not a smell,train_cv,5
+augmented:000231,Not a smell,train_cv,7
+augmented:000232,Not a smell,train_cv,1
+augmented:000233,Vague,held_out,
+augmented:000234,Obvious,held_out,
+augmented:000235,Not a smell,train_cv,3
+augmented:000236,Not a smell,held_out,
+augmented:000237,Not a smell,train_cv,8
+augmented:000238,Obvious,train_cv,2
+augmented:000239,Not a smell,train_cv,10
+augmented:000240,Not a smell,held_out,
+augmented:000241,Obvious,train_cv,9
+augmented:000242,Not a smell,held_out,
+augmented:000243,Not a smell,held_out,
+augmented:000244,Obvious,train_cv,3
+augmented:000245,Obvious,train_cv,5
+augmented:000246,Task,train_cv,2
+augmented:000247,Obvious,train_cv,3
+augmented:000248,Not a smell,train_cv,3
+augmented:000249,Not a smell,train_cv,5
+augmented:000250,Obvious,held_out,
+augmented:000251,Not a smell,train_cv,1
+augmented:000252,Not a smell,train_cv,5
+augmented:000253,Obvious,train_cv,4
+augmented:000254,Obvious,held_out,
+augmented:000255,Commented out code,train_cv,3
+augmented:000256,Obvious,train_cv,9
+augmented:000257,Vague,held_out,
+augmented:000258,Beautification,train_cv,10
+augmented:000259,Not a smell,train_cv,2
+augmented:000260,Not a smell,train_cv,5
+augmented:000261,Task,train_cv,4
+augmented:000262,Commented out code,held_out,
+augmented:000263,Not a smell,train_cv,10
+augmented:000264,Vague,train_cv,1
+augmented:000265,Beautification,train_cv,5
+augmented:000266,Beautification,train_cv,4
+augmented:000267,Vague,train_cv,6
+augmented:000268,Not a smell,train_cv,9
+augmented:000269,Not a smell,train_cv,5
+augmented:000270,Not a smell,train_cv,7
+augmented:000271,Not a smell,train_cv,6
+augmented:000272,Not a smell,train_cv,3
+augmented:000273,Not a smell,train_cv,5
+augmented:000274,Not a smell,train_cv,6
+augmented:000275,Vague,train_cv,2
+augmented:000276,Task,train_cv,10
+augmented:000277,Not a smell,train_cv,9
+augmented:000278,Obvious,held_out,
+augmented:000279,Not a smell,train_cv,1
+augmented:000280,Not a smell,train_cv,8
+augmented:000281,Not a smell,train_cv,6
+augmented:000282,Task,train_cv,8
+augmented:000283,Obvious,train_cv,8
+augmented:000284,Not a smell,held_out,
+augmented:000285,Obvious,held_out,
+augmented:000286,Not a smell,train_cv,1
+augmented:000287,Not a smell,train_cv,5
+augmented:000288,Not a smell,train_cv,3
+augmented:000289,Not a smell,train_cv,1
+augmented:000290,Not a smell,train_cv,4
+augmented:000291,Obvious,train_cv,2
+augmented:000292,Not a smell,held_out,
+augmented:000293,Obvious,held_out,
+augmented:000294,Obvious,train_cv,7
+augmented:000295,Task,train_cv,9
+augmented:000296,Not a smell,train_cv,9
+augmented:000297,Not a smell,train_cv,8
+augmented:000298,Obvious,train_cv,5
+augmented:000299,Obvious,held_out,
+augmented:000300,Not a smell,held_out,
+augmented:000301,Not a smell,held_out,
+augmented:000302,Task,held_out,
+augmented:000303,Not a smell,train_cv,3
+augmented:000304,Not a smell,train_cv,3
+augmented:000305,Beautification,train_cv,3
+augmented:000306,Not a smell,held_out,
+augmented:000307,Not a smell,train_cv,3
+augmented:000308,Obvious,train_cv,8
+augmented:000309,Task,held_out,
+augmented:000310,Not a smell,held_out,
+augmented:000311,Not a smell,held_out,
+augmented:000312,Task,train_cv,3
+augmented:000313,Vague,train_cv,2
+augmented:000314,Obvious,train_cv,6
+augmented:000315,Obvious,train_cv,1
+augmented:000316,Obvious,train_cv,10
+augmented:000317,Not a smell,train_cv,8
+augmented:000318,Not a smell,train_cv,3
+augmented:000319,Not a smell,held_out,
+augmented:000320,Not a smell,train_cv,5
+augmented:000321,Obvious,train_cv,3
+augmented:000322,Obvious,train_cv,5
+augmented:000323,Not a smell,train_cv,7
+augmented:000324,Not a smell,held_out,
+augmented:000325,Not a smell,train_cv,8
+augmented:000326,Not a smell,train_cv,2
+augmented:000327,Beautification,held_out,
+augmented:000328,Beautification,train_cv,7
+augmented:000329,Obvious,train_cv,3
+augmented:000330,Obvious,train_cv,8
+augmented:000331,Not a smell,train_cv,7
+augmented:000332,Not a smell,train_cv,6
+augmented:000333,Not a smell,train_cv,3
+augmented:000334,Not a smell,train_cv,4
+augmented:000335,Commented out code,held_out,
+augmented:000336,Obvious,train_cv,2
+augmented:000337,Obvious,train_cv,5
+augmented:000339,Obvious,train_cv,8
+augmented:000340,Not a smell,train_cv,8
+augmented:000341,Not a smell,train_cv,6
+augmented:000342,Beautification,train_cv,7
+augmented:000343,Not a smell,train_cv,2
+augmented:000344,Obvious,train_cv,7
+augmented:000345,Not a smell,train_cv,2
+augmented:000346,Not a smell,held_out,
+augmented:000347,Not a smell,train_cv,1
+augmented:000348,Obvious,train_cv,5
+augmented:000349,Obvious,train_cv,8
+augmented:000350,Vague,train_cv,9
+augmented:000351,Not a smell,train_cv,6
+augmented:000352,Obvious,train_cv,5
+augmented:000353,Obvious,train_cv,7
+augmented:000354,Not a smell,held_out,
+augmented:000355,Obvious,held_out,
+augmented:000356,Obvious,train_cv,9
+augmented:000357,Not a smell,held_out,
+augmented:000358,Not a smell,held_out,
+augmented:000359,Obvious,train_cv,1
+augmented:000360,Obvious,train_cv,6
+augmented:000361,Obvious,train_cv,1
+augmented:000362,Not a smell,train_cv,6
+augmented:000363,Obvious,train_cv,1
+augmented:000364,Obvious,train_cv,7
+augmented:000365,Not a smell,held_out,
+augmented:000366,Obvious,train_cv,4
+augmented:000367,Not a smell,train_cv,5
+augmented:000368,Obvious,train_cv,2
+augmented:000370,Obvious,train_cv,4
+augmented:000371,Obvious,train_cv,10
+augmented:000372,Not a smell,held_out,
+augmented:000374,Not a smell,held_out,
+augmented:000375,Obvious,train_cv,1
+augmented:000376,Not a smell,train_cv,7
+augmented:000377,Obvious,train_cv,3
+augmented:000378,Obvious,train_cv,3
+augmented:000379,Obvious,train_cv,1
+augmented:000380,Not a smell,train_cv,5
+augmented:000381,Obvious,train_cv,2
+augmented:000382,Not a smell,train_cv,9
+augmented:000383,Obvious,train_cv,9
+augmented:000385,Obvious,train_cv,10
+augmented:000386,Obvious,train_cv,4
+augmented:000387,Obvious,train_cv,10
+augmented:000388,Not a smell,train_cv,2
+augmented:000389,Obvious,held_out,
+augmented:000390,Obvious,held_out,
+augmented:000391,Obvious,train_cv,10
+augmented:000392,Obvious,train_cv,6
+augmented:000393,Obvious,train_cv,9
+augmented:000394,Task,held_out,
+augmented:000395,Not a smell,train_cv,4
+augmented:000396,Obvious,train_cv,10
+augmented:000397,Not a smell,train_cv,2
+augmented:000398,Not a smell,train_cv,1
+augmented:000399,Obvious,train_cv,2
+augmented:000400,Obvious,train_cv,2
+augmented:000401,Not a smell,train_cv,9
+augmented:000402,Not a smell,train_cv,5
+augmented:000403,Obvious,train_cv,10
+augmented:000404,Obvious,train_cv,4
+augmented:000405,Not a smell,train_cv,5
+augmented:000406,Obvious,train_cv,3
+augmented:000407,Obvious,train_cv,9
+augmented:000408,Not a smell,train_cv,5
+augmented:000409,Not a smell,train_cv,2
+augmented:000410,Not a smell,train_cv,6
+augmented:000411,Obvious,train_cv,9
+augmented:000412,Obvious,train_cv,9
+augmented:000413,Not a smell,held_out,
+augmented:000414,Obvious,train_cv,10
+augmented:000415,Not a smell,held_out,
+augmented:000416,Obvious,held_out,
+augmented:000417,Not a smell,held_out,
+augmented:000418,Not a smell,train_cv,4
+augmented:000419,Obvious,train_cv,4
+augmented:000420,Obvious,train_cv,1
+augmented:000421,Not a smell,held_out,
+augmented:000422,Task,train_cv,8
+augmented:000423,Not a smell,held_out,
+augmented:000424,Not a smell,train_cv,6
+augmented:000425,Not a smell,train_cv,4
+augmented:000426,Vague,train_cv,1
+augmented:000427,Not a smell,held_out,
+augmented:000428,Task,train_cv,10
+augmented:000429,Not a smell,held_out,
+augmented:000430,Not a smell,train_cv,8
+augmented:000431,Not a smell,train_cv,7
+augmented:000432,Not a smell,train_cv,6
+augmented:000433,Obvious,held_out,
+augmented:000434,Obvious,held_out,
+augmented:000435,Obvious,train_cv,10
+augmented:000436,Obvious,train_cv,8
+augmented:000437,Not a smell,held_out,
+augmented:000438,Obvious,train_cv,2
+augmented:000439,Not a smell,held_out,
+augmented:000440,Not a smell,held_out,
+augmented:000441,Obvious,train_cv,5
+augmented:000442,Not a smell,train_cv,3
+augmented:000443,Obvious,train_cv,8
+augmented:000444,Obvious,train_cv,1
+augmented:000445,Not a smell,held_out,
+augmented:000446,Obvious,train_cv,1
+augmented:000447,Obvious,train_cv,2
+augmented:000448,Not a smell,train_cv,10
+augmented:000449,Obvious,train_cv,8
+augmented:000450,Not a smell,train_cv,10
+augmented:000451,Obvious,train_cv,7
+augmented:000452,Obvious,held_out,
+augmented:000453,Not a smell,train_cv,2
+augmented:000454,Obvious,train_cv,1
+augmented:000455,Not a smell,train_cv,7
+augmented:000456,Obvious,train_cv,9
+augmented:000457,Obvious,held_out,
+augmented:000458,Obvious,train_cv,10
+augmented:000459,Obvious,train_cv,5
+augmented:000460,Not a smell,train_cv,2
+augmented:000461,Not a smell,train_cv,2
+augmented:000462,Obvious,train_cv,8
+augmented:000463,Obvious,train_cv,8
+augmented:000464,Obvious,train_cv,3
+augmented:000465,Obvious,train_cv,7
+augmented:000466,Obvious,train_cv,6
+augmented:000467,Obvious,train_cv,1
+augmented:000468,Vague,train_cv,5
+augmented:000469,Obvious,train_cv,5
+augmented:000470,Not a smell,train_cv,8
+augmented:000471,Not a smell,train_cv,3
+augmented:000472,Obvious,train_cv,4
+augmented:000473,Obvious,train_cv,10
+augmented:000474,Obvious,train_cv,9
+augmented:000475,Commented out code,train_cv,1
+augmented:000476,Commented out code,train_cv,7
+augmented:000477,Obvious,train_cv,3
+augmented:000478,Obvious,held_out,
+augmented:000479,Obvious,train_cv,9
+augmented:000480,Not a smell,train_cv,4
+augmented:000481,Not a smell,train_cv,7
+augmented:000482,Not a smell,train_cv,5
+augmented:000483,Not a smell,train_cv,8
+augmented:000484,Not a smell,train_cv,9
+augmented:000485,Not a smell,held_out,
+augmented:000486,Not a smell,train_cv,9
+augmented:000487,Not a smell,held_out,
+augmented:000488,Obvious,train_cv,6
+augmented:000489,Not a smell,held_out,
+augmented:000490,Obvious,train_cv,8
+augmented:000491,Obvious,train_cv,6
+augmented:000492,Obvious,train_cv,4
+augmented:000493,Obvious,train_cv,10
+augmented:000494,Obvious,train_cv,3
+augmented:000495,Not a smell,train_cv,7
+augmented:000496,Not a smell,train_cv,2
+augmented:000497,Obvious,train_cv,5
+augmented:000498,Not a smell,train_cv,5
+augmented:000499,Not a smell,train_cv,3
+augmented:000500,Obvious,train_cv,1
+augmented:000501,Not a smell,held_out,
+augmented:000502,Obvious,held_out,
+augmented:000503,Not a smell,train_cv,10
+augmented:000504,Obvious,train_cv,2
+augmented:000505,Vague,train_cv,8
+augmented:000506,Obvious,train_cv,7
+augmented:000507,Not a smell,train_cv,8
+augmented:000508,Obvious,train_cv,2
+augmented:000509,Not a smell,train_cv,3
+augmented:000510,Obvious,train_cv,7
+augmented:000511,Not a smell,train_cv,4
+augmented:000512,Task,train_cv,10
+augmented:000513,Commented out code,train_cv,6
+augmented:000514,Commented out code,held_out,
+augmented:000515,Commented out code,held_out,
+augmented:000516,Commented out code,train_cv,8
+augmented:000517,Commented out code,train_cv,9
+augmented:000518,Commented out code,train_cv,3
+augmented:000519,Commented out code,train_cv,8
+augmented:000520,Commented out code,train_cv,9
+augmented:000521,Obvious,held_out,
+augmented:000522,Commented out code,train_cv,4
+augmented:000523,Not a smell,train_cv,1
+augmented:000524,Obvious,train_cv,1
+augmented:000525,Commented out code,train_cv,2
+augmented:000526,Not a smell,held_out,
+augmented:000527,Obvious,train_cv,5
+augmented:000528,Obvious,train_cv,3
+augmented:000529,Obvious,train_cv,6
+augmented:000530,Obvious,train_cv,5
+augmented:000531,Obvious,train_cv,8
+augmented:000532,Obvious,train_cv,1
+augmented:000533,Obvious,train_cv,6
+augmented:000534,Obvious,held_out,
+augmented:000535,Not a smell,held_out,
+augmented:000536,Not a smell,held_out,
+augmented:000537,Not a smell,held_out,
+augmented:000538,Obvious,train_cv,8
+augmented:000539,Obvious,held_out,
+augmented:000540,Not a smell,train_cv,3
+augmented:000541,Obvious,train_cv,1
+augmented:000542,Obvious,train_cv,9
+augmented:000543,Obvious,train_cv,4
+augmented:000544,Obvious,train_cv,4
+augmented:000545,Obvious,held_out,
+augmented:000546,Obvious,train_cv,9
+augmented:000547,Obvious,train_cv,10
+augmented:000548,Obvious,train_cv,10
+augmented:000549,Vague,train_cv,3
+augmented:000550,Obvious,held_out,
+augmented:000551,Obvious,held_out,
+augmented:000552,Obvious,train_cv,7
+augmented:000553,Obvious,train_cv,9
+augmented:000554,Obvious,train_cv,5
+augmented:000555,Obvious,held_out,
+augmented:000556,Obvious,train_cv,9
+augmented:000557,Obvious,train_cv,8
+augmented:000558,Obvious,train_cv,7
+augmented:000559,Obvious,held_out,
+augmented:000560,Obvious,train_cv,4
+augmented:000561,Obvious,train_cv,7
+augmented:000562,Not a smell,held_out,
+augmented:000563,Not a smell,train_cv,9
+augmented:000564,Not a smell,train_cv,4
+augmented:000565,Not a smell,train_cv,1
+augmented:000566,Obvious,train_cv,7
+augmented:000567,Obvious,train_cv,1
+augmented:000568,Obvious,held_out,
+augmented:000569,Obvious,train_cv,3
+augmented:000570,Not a smell,train_cv,8
+augmented:000571,Not a smell,held_out,
+augmented:000572,Obvious,train_cv,2
+augmented:000573,Obvious,train_cv,3
+augmented:000574,Obvious,train_cv,7
+augmented:000575,Obvious,train_cv,5
+augmented:000578,Obvious,train_cv,4
+augmented:000579,Obvious,train_cv,2
+augmented:000580,Obvious,train_cv,1
+augmented:000581,Obvious,train_cv,6
+augmented:000582,Obvious,train_cv,1
+augmented:000583,Obvious,train_cv,6
+augmented:000584,Obvious,train_cv,4
+augmented:000585,Obvious,train_cv,8
+augmented:000586,Obvious,train_cv,4
+augmented:000587,Not a smell,train_cv,2
+augmented:000588,Obvious,train_cv,1
+augmented:000589,Not a smell,train_cv,1
+augmented:000590,Obvious,train_cv,3
+augmented:000591,Obvious,held_out,
+augmented:000592,Not a smell,train_cv,3
+augmented:000593,Not a smell,train_cv,6
+augmented:000594,Not a smell,held_out,
+augmented:000595,Not a smell,train_cv,8
+augmented:000597,Obvious,train_cv,9
+augmented:000598,Not a smell,train_cv,10
+augmented:000599,Not a smell,train_cv,8
+augmented:000600,Not a smell,held_out,
+augmented:000601,Obvious,train_cv,4
+augmented:000602,Obvious,train_cv,6
+augmented:000603,Not a smell,train_cv,4
+augmented:000604,Not a smell,train_cv,6
+augmented:000605,Not a smell,train_cv,1
+augmented:000606,Not a smell,held_out,
+augmented:000607,Not a smell,train_cv,3
+augmented:000608,Not a smell,train_cv,3
+augmented:000609,Not a smell,train_cv,7
+augmented:000610,Obvious,train_cv,8
+augmented:000611,Obvious,train_cv,5
+augmented:000612,Not a smell,held_out,
+augmented:000613,Not a smell,train_cv,7
+augmented:000614,Not a smell,train_cv,2
+augmented:000615,Not a smell,train_cv,5
+augmented:000616,Not a smell,train_cv,7
+augmented:000617,Not a smell,train_cv,9
+augmented:000618,Not a smell,train_cv,7
+augmented:000619,Not a smell,train_cv,7
+augmented:000620,Not a smell,held_out,
+augmented:000621,Obvious,held_out,
+augmented:000622,Obvious,train_cv,3
+augmented:000623,Obvious,held_out,
+augmented:000625,Not a smell,train_cv,8
+augmented:000626,Obvious,train_cv,3
+augmented:000627,Obvious,train_cv,2
+augmented:000628,Obvious,held_out,
+augmented:000629,Obvious,held_out,
+augmented:000630,Obvious,train_cv,6
+augmented:000631,Not a smell,held_out,
+augmented:000632,Obvious,held_out,
+augmented:000633,Not a smell,train_cv,2
+augmented:000634,Obvious,train_cv,8
+augmented:000635,Not a smell,train_cv,10
+augmented:000636,Obvious,train_cv,2
+augmented:000637,Not a smell,train_cv,6
+augmented:000638,Obvious,train_cv,4
+augmented:000639,Obvious,train_cv,10
+augmented:000640,Not a smell,train_cv,9
+augmented:000641,Not a smell,held_out,
+augmented:000642,Task,train_cv,10
+augmented:000643,Not a smell,train_cv,2
+augmented:000644,Task,train_cv,10
+augmented:000645,Task,held_out,
+augmented:000646,Obvious,train_cv,1
+augmented:000647,Obvious,train_cv,8
+augmented:000648,Not a smell,held_out,
+augmented:000649,Obvious,train_cv,1
+augmented:000650,Not a smell,train_cv,1
+augmented:000651,Not a smell,train_cv,8
+augmented:000652,Obvious,train_cv,2
+augmented:000653,Not a smell,train_cv,7
+augmented:000654,Not a smell,train_cv,2
+augmented:000655,Task,train_cv,6
+augmented:000656,Obvious,train_cv,6
+augmented:000657,Not a smell,train_cv,7
+augmented:000658,Task,held_out,
+augmented:000659,Not a smell,train_cv,1
+augmented:000660,Not a smell,held_out,
+augmented:000661,Obvious,held_out,
+augmented:000662,Not a smell,held_out,
+augmented:000663,Obvious,train_cv,6
+augmented:000664,Not a smell,train_cv,3
+augmented:000665,Not a smell,train_cv,4
+augmented:000666,Not a smell,train_cv,1
+augmented:000667,Not a smell,train_cv,2
+augmented:000668,Not a smell,train_cv,1
+augmented:000669,Not a smell,train_cv,9
+augmented:000670,Vague,train_cv,4
+augmented:000671,Vague,train_cv,7
+augmented:000672,Obvious,train_cv,9
+augmented:000673,Vague,train_cv,10
+augmented:000674,Vague,train_cv,3
+augmented:000675,Not a smell,train_cv,2
+augmented:000676,Not a smell,train_cv,9
+augmented:000677,Not a smell,train_cv,8
+augmented:000678,Obvious,train_cv,8
+augmented:000679,Obvious,held_out,
+augmented:000680,Obvious,train_cv,3
+augmented:000681,Obvious,train_cv,5
+augmented:000682,Obvious,train_cv,4
+augmented:000683,Obvious,train_cv,5
+augmented:000684,Task,train_cv,8
+augmented:000685,Not a smell,held_out,
+augmented:000686,Not a smell,train_cv,2
+augmented:000687,Obvious,train_cv,9
+augmented:000688,Obvious,train_cv,6
+augmented:000689,Obvious,train_cv,3
+augmented:000690,Obvious,held_out,
+augmented:000691,Not a smell,held_out,
+augmented:000692,Obvious,train_cv,9
+augmented:000693,Obvious,train_cv,10
+augmented:000694,Obvious,train_cv,4
+augmented:000695,Obvious,train_cv,9
+augmented:000696,Obvious,train_cv,8
+augmented:000697,Not a smell,train_cv,10
+augmented:000698,Not a smell,train_cv,2
+augmented:000699,Obvious,train_cv,8
+augmented:000700,Obvious,train_cv,5
+augmented:000701,Not a smell,train_cv,7
+augmented:000702,Obvious,train_cv,10
+augmented:000703,Obvious,train_cv,8
+augmented:000704,Not a smell,held_out,
+augmented:000705,Task,held_out,
+augmented:000706,Task,held_out,
+augmented:000707,Obvious,train_cv,6
+augmented:000708,Obvious,train_cv,2
+augmented:000709,Obvious,train_cv,10
+augmented:000710,Obvious,train_cv,5
+augmented:000711,Not a smell,train_cv,5
+augmented:000712,Obvious,train_cv,9
+augmented:000713,Not a smell,train_cv,10
+augmented:000714,Obvious,train_cv,3
+augmented:000715,Obvious,train_cv,3
+augmented:000716,Obvious,train_cv,7
+augmented:000717,Obvious,train_cv,1
+augmented:000718,Obvious,train_cv,6
+augmented:000719,Obvious,train_cv,5
+augmented:000720,Obvious,train_cv,5
+augmented:000721,Not a smell,train_cv,7
+augmented:000722,Vague,train_cv,7
+augmented:000723,Not a smell,train_cv,8
+augmented:000724,Not a smell,train_cv,4
+augmented:000725,Obvious,train_cv,7
+augmented:000726,Obvious,held_out,
+augmented:000727,Not a smell,train_cv,9
+augmented:000728,Not a smell,train_cv,8
+augmented:000729,Not a smell,train_cv,10
+augmented:000730,Not a smell,held_out,
+augmented:000731,Obvious,train_cv,3
+augmented:000732,Not a smell,train_cv,3
+augmented:000733,Obvious,train_cv,7
+augmented:000734,Obvious,train_cv,9
+augmented:000735,Not a smell,train_cv,7
+augmented:000736,Obvious,train_cv,9
+augmented:000737,Vague,train_cv,3
+augmented:000738,Not a smell,train_cv,8
+augmented:000739,Not a smell,train_cv,4
+augmented:000740,Not a smell,train_cv,4
+augmented:000741,Not a smell,train_cv,7
+augmented:000742,Not a smell,train_cv,3
+augmented:000743,Obvious,train_cv,3
+augmented:000744,Obvious,train_cv,6
+augmented:000745,Not a smell,train_cv,6
+augmented:000746,Not a smell,train_cv,8
+augmented:000747,Not a smell,held_out,
+augmented:000748,Not a smell,train_cv,2
+augmented:000749,Not a smell,train_cv,2
+augmented:000750,Not a smell,train_cv,4
+augmented:000751,Not a smell,train_cv,8
+augmented:000752,Not a smell,train_cv,9
+augmented:000753,Not a smell,train_cv,7
+augmented:000754,Not a smell,train_cv,8
+augmented:000755,Obvious,held_out,
+augmented:000756,Obvious,train_cv,10
+augmented:000757,Not a smell,held_out,
+augmented:000758,Obvious,train_cv,6
+augmented:000759,Not a smell,train_cv,3
+augmented:000760,Not a smell,train_cv,10
+augmented:000761,Not a smell,train_cv,6
+augmented:000762,Not a smell,train_cv,2
+augmented:000763,Not a smell,train_cv,3
+augmented:000764,Not a smell,train_cv,8
+augmented:000765,Not a smell,train_cv,8
+augmented:000766,Obvious,train_cv,6
+augmented:000767,Obvious,held_out,
+augmented:000768,Obvious,train_cv,3
+augmented:000769,Not a smell,train_cv,9
+augmented:000770,Not a smell,train_cv,6
+augmented:000771,Not a smell,train_cv,2
+augmented:000772,Not a smell,train_cv,10
+augmented:000773,Obvious,train_cv,7
+augmented:000774,Not a smell,train_cv,4
+augmented:000775,Not a smell,train_cv,1
+augmented:000776,Vague,train_cv,4
+augmented:000777,Not a smell,train_cv,2
+augmented:000778,Not a smell,held_out,
+augmented:000779,Not a smell,train_cv,8
+augmented:000780,Not a smell,train_cv,6
+augmented:000781,Task,train_cv,7
+augmented:000782,Not a smell,held_out,
+augmented:000783,Obvious,held_out,
+augmented:000784,Not a smell,train_cv,8
+augmented:000785,Obvious,train_cv,4
+augmented:000786,Not a smell,train_cv,9
+augmented:000787,Not a smell,train_cv,10
+augmented:000788,Not a smell,train_cv,7
+augmented:000789,Obvious,train_cv,4
+augmented:000790,Not a smell,train_cv,9
+augmented:000791,Not a smell,held_out,
+augmented:000792,Not a smell,held_out,
+augmented:000793,Obvious,train_cv,4
+augmented:000794,Not a smell,train_cv,4
+augmented:000795,Not a smell,train_cv,3
+augmented:000796,Not a smell,held_out,
+augmented:000797,Not a smell,train_cv,3
+augmented:000798,Not a smell,train_cv,4
+augmented:000799,Obvious,held_out,
+augmented:000800,Commented out code,train_cv,10
+augmented:000801,Not a smell,train_cv,1
+augmented:000802,Obvious,train_cv,6
+augmented:000803,Obvious,held_out,
+augmented:000804,Task,train_cv,4
+augmented:000805,Obvious,train_cv,6
+augmented:000806,Obvious,train_cv,8
+augmented:000807,Obvious,train_cv,4
+augmented:000808,Task,train_cv,8
+augmented:000809,Not a smell,train_cv,1
+augmented:000810,Task,train_cv,1
+augmented:000811,Not a smell,train_cv,10
+augmented:000812,Obvious,train_cv,4
+augmented:000813,Not a smell,train_cv,5
+augmented:000814,Not a smell,train_cv,6
+augmented:000815,Not a smell,train_cv,3
+augmented:000816,Obvious,train_cv,4
+augmented:000817,Not a smell,held_out,
+augmented:000818,Obvious,train_cv,4
+augmented:000819,Not a smell,held_out,
+augmented:000820,Obvious,held_out,
+augmented:000821,Not a smell,held_out,
+augmented:000822,Not a smell,train_cv,9
+augmented:000823,Commented out code,train_cv,6
+augmented:000824,Not a smell,train_cv,5
+augmented:000825,Not a smell,train_cv,6
+augmented:000826,Not a smell,train_cv,7
+augmented:000827,Not a smell,held_out,
+augmented:000828,Not a smell,held_out,
+augmented:000829,Vague,held_out,
+augmented:000830,Not a smell,held_out,
+augmented:000831,Not a smell,train_cv,1
+augmented:000832,Not a smell,train_cv,7
+augmented:000833,Obvious,train_cv,3
+augmented:000834,Obvious,train_cv,2
+augmented:000835,Obvious,train_cv,2
+augmented:000836,Not a smell,train_cv,2
+augmented:000837,Not a smell,train_cv,1
+augmented:000838,Not a smell,train_cv,8
+augmented:000839,Not a smell,train_cv,2
+augmented:000840,Not a smell,held_out,
+augmented:000841,Not a smell,train_cv,5
+augmented:000842,Not a smell,train_cv,5
+augmented:000843,Not a smell,train_cv,4
+augmented:000844,Obvious,train_cv,7
+augmented:000845,Not a smell,train_cv,7
+augmented:000846,Not a smell,train_cv,9
+augmented:000847,Not a smell,held_out,
+augmented:000848,Not a smell,train_cv,6
+augmented:000849,Not a smell,train_cv,3
+augmented:000850,Obvious,train_cv,8
+augmented:000851,Not a smell,train_cv,3
+augmented:000852,Not a smell,held_out,
+augmented:000853,Task,train_cv,6
+augmented:000854,Obvious,train_cv,4
+augmented:000855,Not a smell,train_cv,9
+augmented:000856,Not a smell,held_out,
+augmented:000858,Not a smell,train_cv,1
+augmented:000859,Not a smell,train_cv,9
+augmented:000860,Not a smell,train_cv,8
+augmented:000861,Not a smell,train_cv,8
+augmented:000862,Not a smell,train_cv,4
+augmented:000863,Not a smell,train_cv,3
+augmented:000864,Not a smell,train_cv,7
+augmented:000865,Not a smell,train_cv,1
+augmented:000866,Not a smell,train_cv,5
+augmented:000867,Not a smell,held_out,
+augmented:000868,Obvious,train_cv,10
+augmented:000869,Obvious,held_out,
+augmented:000870,Obvious,train_cv,5
+augmented:000871,Obvious,train_cv,2
+augmented:000872,Not a smell,train_cv,10
+augmented:000873,Obvious,train_cv,10
+augmented:000874,Not a smell,train_cv,7
+augmented:000875,Obvious,train_cv,5
+augmented:000876,Obvious,train_cv,9
+augmented:000877,Not a smell,held_out,
+augmented:000878,Not a smell,train_cv,7
+augmented:000879,Not a smell,train_cv,6
+augmented:000880,Not a smell,train_cv,10
+augmented:000881,Not a smell,train_cv,8
+augmented:000882,Not a smell,train_cv,5
+augmented:000883,Not a smell,train_cv,6
+augmented:000884,Obvious,train_cv,5
+augmented:000885,Obvious,train_cv,4
+augmented:000886,Obvious,held_out,
+augmented:000887,Obvious,train_cv,6
+augmented:000888,Obvious,train_cv,10
+augmented:000889,Obvious,train_cv,1
+augmented:000890,Not a smell,train_cv,4
+augmented:000891,Obvious,held_out,
+augmented:000892,Commented out code,train_cv,5
+augmented:000893,Not a smell,train_cv,2
+augmented:000894,Not a smell,train_cv,5
+augmented:000895,Commented out code,train_cv,7
+augmented:000896,Commented out code,train_cv,10
+augmented:000897,Task,train_cv,2
+augmented:000898,Not a smell,train_cv,2
+augmented:000899,Task,train_cv,7
+augmented:000900,Task,held_out,
+augmented:000901,Not a smell,train_cv,7
+augmented:000902,Not a smell,train_cv,6
+augmented:000903,Not a smell,held_out,
+augmented:000904,Commented out code,held_out,
+augmented:000905,Not a smell,held_out,
+augmented:000906,Not a smell,train_cv,3
+augmented:000907,Not a smell,train_cv,10
+augmented:000908,Not a smell,train_cv,3
+augmented:000909,Not a smell,train_cv,3
+augmented:000910,Task,train_cv,8
+augmented:000911,Not a smell,train_cv,1
+augmented:000912,Vague,train_cv,8
+augmented:000913,Task,train_cv,6
+augmented:000914,Obvious,train_cv,2
+augmented:000915,Obvious,train_cv,7
+augmented:000916,Not a smell,held_out,
+augmented:000917,Not a smell,train_cv,4
+augmented:000918,Not a smell,train_cv,3
+augmented:000919,Not a smell,train_cv,5
+augmented:000920,Commented out code,train_cv,4
+augmented:000921,Not a smell,train_cv,7
+augmented:000922,Obvious,train_cv,8
+augmented:000923,Obvious,train_cv,4
+augmented:000924,Obvious,train_cv,5
+augmented:000925,Commented out code,train_cv,2
+augmented:000926,Obvious,train_cv,7
+augmented:000927,Not a smell,train_cv,4
+augmented:000928,Obvious,train_cv,7
+augmented:000929,Not a smell,train_cv,8
+augmented:000930,Not a smell,train_cv,10
+augmented:000931,Not a smell,train_cv,8
+augmented:000932,Commented out code,train_cv,5
+augmented:000933,Not a smell,held_out,
+augmented:000934,Obvious,train_cv,7
+augmented:000935,Obvious,held_out,
+augmented:000936,Not a smell,train_cv,10
+augmented:000937,Not a smell,train_cv,7
+augmented:000938,Obvious,train_cv,5
+augmented:000939,Not a smell,train_cv,9
+augmented:000940,Obvious,train_cv,2
+augmented:000942,Obvious,held_out,
+augmented:000943,Not a smell,held_out,
+augmented:000944,Not a smell,held_out,
+augmented:000945,Not a smell,held_out,
+augmented:000946,Not a smell,train_cv,6
+augmented:000947,Obvious,train_cv,10
+augmented:000948,Not a smell,train_cv,5
+augmented:000949,Not a smell,train_cv,1
+augmented:000950,Obvious,held_out,
+augmented:000951,Not a smell,train_cv,9
+augmented:000952,Not a smell,train_cv,8
+augmented:000953,Obvious,train_cv,4
+augmented:000954,Obvious,train_cv,2
+augmented:000955,Not a smell,train_cv,8
+augmented:000956,Obvious,train_cv,10
+augmented:000957,Not a smell,held_out,
+augmented:000958,Obvious,train_cv,9
+augmented:000959,Not a smell,train_cv,7
+augmented:000960,Not a smell,train_cv,9
+augmented:000961,Obvious,held_out,
+augmented:000962,Obvious,train_cv,9
+augmented:000963,Obvious,train_cv,9
+augmented:000964,Obvious,train_cv,8
+augmented:000965,Not a smell,train_cv,7
+augmented:000966,Obvious,train_cv,8
+augmented:000967,Not a smell,train_cv,7
+augmented:000968,Not a smell,train_cv,7
+augmented:000969,Obvious,train_cv,4
+augmented:000970,Obvious,train_cv,7
+augmented:000971,Obvious,train_cv,8
+augmented:000972,Not a smell,train_cv,1
+augmented:000973,Obvious,train_cv,9
+augmented:000974,Obvious,train_cv,2
+augmented:000975,Not a smell,train_cv,8
+augmented:000976,Beautification,train_cv,2
+augmented:000977,Beautification,train_cv,6
+augmented:000978,Obvious,train_cv,8
+augmented:000979,Beautification,train_cv,8
+augmented:000980,Beautification,train_cv,4
+augmented:000981,Not a smell,train_cv,8
+augmented:000982,Not a smell,train_cv,10
+augmented:000983,Not a smell,train_cv,3
+augmented:000984,Not a smell,train_cv,7
+augmented:000985,Obvious,train_cv,3
+augmented:000986,Task,held_out,
+augmented:000987,Obvious,train_cv,10
+augmented:000988,Obvious,train_cv,1
+augmented:000989,Not a smell,train_cv,6
+augmented:000990,Not a smell,train_cv,8
+augmented:000991,Not a smell,held_out,
+augmented:000992,Not a smell,train_cv,3
+augmented:000993,Not a smell,train_cv,4
+augmented:000994,Not a smell,train_cv,9
+augmented:000995,Not a smell,train_cv,6
+augmented:000997,Not a smell,train_cv,8
+augmented:000998,Not a smell,train_cv,7
+augmented:000999,Not a smell,held_out,
+augmented:001000,Vague,held_out,
+augmented:001001,Obvious,held_out,
+augmented:001002,Obvious,train_cv,9
+augmented:001003,Obvious,train_cv,4
+augmented:001004,Not a smell,held_out,
+augmented:001005,Task,train_cv,5
+augmented:001006,Obvious,train_cv,2
+augmented:001008,Not a smell,held_out,
+augmented:001009,Obvious,train_cv,1
+augmented:001010,Obvious,train_cv,8
+augmented:001011,Obvious,train_cv,4
+augmented:001012,Not a smell,train_cv,3
+augmented:001013,Not a smell,train_cv,9
+augmented:001014,Not a smell,held_out,
+augmented:001015,Task,train_cv,4
+augmented:001016,Not a smell,train_cv,10
+augmented:001017,Obvious,train_cv,8
+augmented:001018,Not a smell,train_cv,6
+augmented:001019,Obvious,held_out,
+augmented:001020,Obvious,train_cv,2
+augmented:001021,Obvious,train_cv,4
+augmented:001022,Not a smell,train_cv,2
+augmented:001023,Not a smell,train_cv,6
+augmented:001024,Not a smell,train_cv,9
+augmented:001025,Not a smell,train_cv,8
+augmented:001026,Not a smell,train_cv,4
+augmented:001027,Not a smell,train_cv,7
+augmented:001028,Not a smell,train_cv,2
+augmented:001029,Not a smell,train_cv,10
+augmented:001030,Commented out code,train_cv,1
+augmented:001031,Commented out code,train_cv,9
+augmented:001032,Obvious,train_cv,3
+augmented:001033,Not a smell,held_out,
+augmented:001034,Not a smell,train_cv,4
+augmented:001035,Not a smell,train_cv,2
+augmented:001036,Not a smell,train_cv,3
+augmented:001037,Beautification,train_cv,7
+augmented:001038,Not a smell,held_out,
+augmented:001039,Not a smell,train_cv,7
+augmented:001040,Not a smell,train_cv,2
+augmented:001041,Not a smell,train_cv,3
+augmented:001042,Not a smell,held_out,
+augmented:001043,Not a smell,train_cv,7
+augmented:001044,Not a smell,train_cv,9
+augmented:001045,Not a smell,train_cv,3
+augmented:001046,Vague,train_cv,7
+augmented:001047,Obvious,train_cv,2
+augmented:001048,Not a smell,train_cv,5
+augmented:001049,Obvious,train_cv,4
+augmented:001050,Not a smell,train_cv,2
+augmented:001051,Not a smell,held_out,
+augmented:001052,Obvious,train_cv,2
+augmented:001053,Not a smell,train_cv,3
+augmented:001054,Not a smell,train_cv,5
+augmented:001055,Not a smell,train_cv,10
+augmented:001056,Not a smell,train_cv,4
+augmented:001057,Not a smell,train_cv,2
+augmented:001058,Obvious,train_cv,7
+augmented:001059,Not a smell,train_cv,4
+augmented:001060,Not a smell,train_cv,6
+augmented:001061,Not a smell,train_cv,2
+augmented:001062,Obvious,held_out,
+augmented:001063,Not a smell,train_cv,10
+augmented:001064,Not a smell,train_cv,6
+augmented:001065,Vague,held_out,
+augmented:001067,Not a smell,train_cv,8
+augmented:001068,Not a smell,train_cv,8
+augmented:001069,Not a smell,train_cv,2
+augmented:001070,Not a smell,train_cv,8
+augmented:001071,Obvious,train_cv,5
+augmented:001072,Not a smell,train_cv,1
+augmented:001073,Obvious,train_cv,4
+augmented:001074,Obvious,train_cv,9
+augmented:001075,Obvious,train_cv,3
+augmented:001076,Not a smell,train_cv,10
+augmented:001077,Obvious,train_cv,5
+augmented:001078,Obvious,train_cv,3
+augmented:001079,Not a smell,train_cv,3
+augmented:001080,Not a smell,held_out,
+augmented:001081,Obvious,train_cv,3
+augmented:001082,Not a smell,train_cv,10
+augmented:001083,Not a smell,train_cv,1
+augmented:001084,Not a smell,train_cv,4
+augmented:001085,Not a smell,train_cv,10
+augmented:001086,Not a smell,train_cv,1
+augmented:001087,Obvious,train_cv,9
+augmented:001088,Not a smell,train_cv,8
+augmented:001089,Not a smell,held_out,
+augmented:001090,Not a smell,train_cv,1
+augmented:001091,Not a smell,train_cv,10
+augmented:001092,Not a smell,train_cv,7
+augmented:001093,Not a smell,train_cv,5
+augmented:001094,Obvious,train_cv,6
+augmented:001095,Not a smell,train_cv,8
+augmented:001096,Not a smell,train_cv,5
+augmented:001097,Not a smell,train_cv,5
+augmented:001098,Not a smell,train_cv,7
+augmented:001099,Not a smell,held_out,
+augmented:001100,Not a smell,held_out,
+augmented:001101,Not a smell,train_cv,6
+augmented:001102,Not a smell,train_cv,1
+augmented:001103,Not a smell,train_cv,6
+augmented:001104,Not a smell,train_cv,9
+augmented:001105,Commented out code,held_out,
+augmented:001106,Not a smell,held_out,
+augmented:001107,Task,train_cv,5
+augmented:001108,Task,train_cv,1
+augmented:001109,Obvious,train_cv,8
+augmented:001110,Not a smell,train_cv,7
+augmented:001111,Not a smell,train_cv,1
+augmented:001112,Task,train_cv,4
+augmented:001113,Not a smell,train_cv,1
+augmented:001114,Task,train_cv,9
+augmented:001115,Task,train_cv,3
+augmented:001116,Task,train_cv,7
+augmented:001117,Not a smell,train_cv,7
+augmented:001118,Not a smell,train_cv,10
+augmented:001119,Obvious,train_cv,8
+augmented:001120,Not a smell,train_cv,9
+augmented:001121,Not a smell,train_cv,6
+augmented:001122,Beautification,held_out,
+augmented:001123,Task,train_cv,9
+augmented:001124,Not a smell,train_cv,5
+augmented:001125,Not a smell,train_cv,10
+augmented:001126,Obvious,train_cv,2
+augmented:001127,Task,train_cv,6
+augmented:001128,Not a smell,train_cv,8
+augmented:001129,Obvious,train_cv,10
+augmented:001130,Obvious,held_out,
+augmented:001131,Obvious,train_cv,7
+augmented:001132,Obvious,train_cv,8
+augmented:001133,Not a smell,train_cv,8
+augmented:001134,Obvious,train_cv,2
+augmented:001135,Not a smell,train_cv,1
+augmented:001136,Not a smell,held_out,
+augmented:001137,Obvious,train_cv,3
+augmented:001138,Not a smell,train_cv,1
+augmented:001139,Not a smell,train_cv,8
+augmented:001140,Not a smell,train_cv,1
+augmented:001141,Not a smell,train_cv,7
+augmented:001142,Obvious,train_cv,3
+augmented:001144,Not a smell,train_cv,8
+augmented:001145,Not a smell,train_cv,5
+augmented:001146,Not a smell,train_cv,5
+augmented:001147,Not a smell,train_cv,8
+augmented:001148,Not a smell,train_cv,10
+augmented:001149,Not a smell,train_cv,4
+augmented:001150,Not a smell,train_cv,6
+augmented:001151,Task,train_cv,5
+augmented:001152,Task,train_cv,1
+augmented:001153,Not a smell,train_cv,6
+augmented:001154,Obvious,held_out,
+augmented:001155,Not a smell,held_out,
+augmented:001156,Not a smell,train_cv,9
+augmented:001157,Obvious,train_cv,9
+augmented:001158,Obvious,train_cv,5
+augmented:001159,Not a smell,train_cv,5
+augmented:001160,Not a smell,train_cv,9
+augmented:001161,Not a smell,train_cv,8
+augmented:001162,Not a smell,train_cv,8
+augmented:001163,Not a smell,train_cv,3
+augmented:001164,Not a smell,train_cv,4
+augmented:001165,Not a smell,train_cv,6
+augmented:001166,Not a smell,train_cv,3
+augmented:001167,Obvious,train_cv,8
+augmented:001168,Not a smell,held_out,
+augmented:001169,Not a smell,train_cv,7
+augmented:001170,Not a smell,train_cv,1
+augmented:001171,Not a smell,train_cv,10
+augmented:001172,Not a smell,train_cv,4
+augmented:001173,Not a smell,train_cv,5
+augmented:001174,Not a smell,held_out,
+augmented:001175,Obvious,train_cv,8
+augmented:001176,Obvious,held_out,
+augmented:001177,Obvious,train_cv,5
+augmented:001178,Obvious,train_cv,10
+augmented:001179,Obvious,train_cv,10
+augmented:001180,Obvious,train_cv,1
+augmented:001181,Not a smell,held_out,
+augmented:001182,Not a smell,held_out,
+augmented:001183,Obvious,train_cv,6
+augmented:001184,Obvious,train_cv,6
+augmented:001185,Obvious,train_cv,10
+augmented:001186,Obvious,train_cv,6
+augmented:001187,Obvious,held_out,
+augmented:001188,Obvious,train_cv,1
+augmented:001189,Obvious,train_cv,10
+augmented:001190,Not a smell,held_out,
+augmented:001191,Obvious,train_cv,10
+augmented:001192,Obvious,train_cv,2
+augmented:001193,Not a smell,train_cv,9
+augmented:001194,Obvious,train_cv,1
+augmented:001195,Obvious,held_out,
+augmented:001196,Obvious,train_cv,5
+augmented:001197,Not a smell,train_cv,8
+augmented:001198,Obvious,train_cv,7
+augmented:001199,Not a smell,train_cv,10
+augmented:001200,Obvious,train_cv,10
+augmented:001201,Obvious,train_cv,4
+augmented:001202,Vague,held_out,
+augmented:001203,Task,train_cv,7
+augmented:001204,Obvious,train_cv,8
+augmented:001205,Not a smell,train_cv,10
+augmented:001206,Not a smell,train_cv,5
+augmented:001207,Not a smell,train_cv,5
+augmented:001208,Obvious,train_cv,8
+augmented:001209,Not a smell,held_out,
+augmented:001210,Not a smell,train_cv,6
+augmented:001211,Obvious,train_cv,1
+augmented:001212,Not a smell,train_cv,9
+augmented:001213,Not a smell,held_out,
+augmented:001214,Not a smell,train_cv,5
+augmented:001215,Not a smell,held_out,
+augmented:001216,Beautification,train_cv,9
+augmented:001217,Not a smell,train_cv,10
+augmented:001218,Not a smell,train_cv,3
+augmented:001219,Obvious,held_out,
+augmented:001220,Not a smell,train_cv,1
+augmented:001222,Not a smell,held_out,
+augmented:001223,Obvious,train_cv,9
+augmented:001224,Obvious,train_cv,7
+augmented:001225,Obvious,train_cv,2
+augmented:001226,Obvious,held_out,
+augmented:001227,Not a smell,train_cv,2
+augmented:001228,Obvious,train_cv,10
+augmented:001229,Obvious,train_cv,9
+augmented:001230,Not a smell,train_cv,1
+augmented:001231,Obvious,train_cv,9
+augmented:001232,Not a smell,train_cv,9
+augmented:001233,Not a smell,train_cv,8
+augmented:001234,Not a smell,train_cv,10
+augmented:001235,Not a smell,train_cv,3
+augmented:001236,Not a smell,train_cv,5
+augmented:001237,Not a smell,train_cv,5
+augmented:001238,Not a smell,train_cv,6
+augmented:001239,Not a smell,train_cv,8
+augmented:001240,Not a smell,train_cv,5
+augmented:001241,Task,held_out,
+augmented:001242,Not a smell,train_cv,2
+augmented:001243,Obvious,train_cv,6
+augmented:001244,Not a smell,held_out,
+augmented:001245,Not a smell,train_cv,10
+augmented:001246,Not a smell,train_cv,7
+augmented:001247,Not a smell,held_out,
+augmented:001248,Not a smell,train_cv,4
+augmented:001249,Not a smell,train_cv,4
+augmented:001250,Obvious,train_cv,6
+augmented:001251,Obvious,held_out,
+augmented:001252,Obvious,held_out,
+augmented:001253,Not a smell,train_cv,1
+augmented:001254,Not a smell,train_cv,9
+augmented:001255,Obvious,train_cv,3
+augmented:001256,Not a smell,train_cv,10
+augmented:001257,Not a smell,train_cv,2
+augmented:001258,Not a smell,train_cv,2
+augmented:001259,Not a smell,train_cv,2
+augmented:001260,Not a smell,train_cv,4
+augmented:001261,Obvious,train_cv,9
+augmented:001262,Not a smell,train_cv,4
+augmented:001263,Not a smell,held_out,
+augmented:001264,Not a smell,train_cv,9
+augmented:001265,Not a smell,train_cv,9
+augmented:001266,Not a smell,train_cv,1
+augmented:001267,Vague,train_cv,6
+augmented:001268,Not a smell,train_cv,2
+augmented:001269,Task,train_cv,3
+augmented:001270,Not a smell,train_cv,6
+augmented:001271,Not a smell,train_cv,6
+augmented:001272,Not a smell,train_cv,1
+augmented:001273,Not a smell,train_cv,2
+augmented:001275,Not a smell,train_cv,1
+augmented:001277,Not a smell,train_cv,3
+augmented:001278,Not a smell,train_cv,4
+augmented:001279,Obvious,held_out,
+augmented:001280,Beautification,train_cv,10
+augmented:001281,Obvious,held_out,
+augmented:001282,Obvious,train_cv,6
+augmented:001283,Task,held_out,
+augmented:001284,Not a smell,held_out,
+augmented:001285,Obvious,train_cv,9
+augmented:001286,Obvious,train_cv,1
+augmented:001287,Not a smell,train_cv,9
+augmented:001288,Not a smell,train_cv,4
+augmented:001289,Not a smell,held_out,
+augmented:001290,Obvious,train_cv,6
+augmented:001291,Not a smell,train_cv,5
+augmented:001292,Obvious,train_cv,1
+augmented:001293,Not a smell,held_out,
+augmented:001294,Obvious,train_cv,2
+augmented:001295,Obvious,train_cv,10
+augmented:001296,Not a smell,train_cv,5
+augmented:001298,Not a smell,train_cv,10
+augmented:001299,Task,held_out,
+augmented:001300,Not a smell,train_cv,4
+augmented:001301,Obvious,held_out,
+augmented:001302,Beautification,held_out,
+augmented:001303,Beautification,train_cv,2
+augmented:001304,Beautification,train_cv,5
+augmented:001305,Obvious,train_cv,6
+augmented:001306,Not a smell,train_cv,6
+augmented:001307,Not a smell,train_cv,3
+augmented:001308,Not a smell,held_out,
+augmented:001309,Obvious,train_cv,1
+augmented:001310,Beautification,held_out,
+augmented:001311,Not a smell,held_out,
+augmented:001312,Not a smell,train_cv,2
+augmented:001313,Not a smell,train_cv,6
+augmented:001314,Not a smell,train_cv,10
+augmented:001315,Task,train_cv,1
+augmented:001316,Task,train_cv,3
+augmented:001317,Not a smell,train_cv,9
+augmented:001318,Not a smell,train_cv,10
+augmented:001319,Vague,held_out,
+augmented:001320,Not a smell,held_out,
+augmented:001321,Task,train_cv,4
+augmented:001322,Obvious,train_cv,3
+augmented:001323,Not a smell,train_cv,9
+augmented:001324,Not a smell,train_cv,4
+augmented:001325,Not a smell,train_cv,9
+augmented:001326,Not a smell,train_cv,2
+augmented:001327,Not a smell,train_cv,9
+augmented:001328,Not a smell,held_out,
+augmented:001329,Not a smell,train_cv,7
+augmented:001330,Not a smell,train_cv,10
+augmented:001331,Not a smell,held_out,
+augmented:001332,Not a smell,train_cv,3
+augmented:001333,Not a smell,train_cv,10
+augmented:001334,Not a smell,train_cv,6
+augmented:001335,Not a smell,train_cv,7
+augmented:001336,Not a smell,train_cv,1
+augmented:001337,Task,held_out,
+augmented:001338,Not a smell,train_cv,3
+augmented:001339,Not a smell,held_out,
+augmented:001340,Not a smell,held_out,
+augmented:001341,Not a smell,train_cv,2
+augmented:001342,Not a smell,train_cv,6
+augmented:001343,Not a smell,train_cv,7
+augmented:001344,Not a smell,train_cv,3
+augmented:001345,Not a smell,train_cv,1
+augmented:001346,Vague,train_cv,7
+augmented:001347,Not a smell,train_cv,8
+augmented:001348,Not a smell,train_cv,2
+augmented:001349,Not a smell,train_cv,8
+augmented:001350,Not a smell,train_cv,9
+augmented:001351,Not a smell,train_cv,6
+augmented:001352,Not a smell,held_out,
+augmented:001353,Not a smell,train_cv,10
+augmented:001354,Not a smell,held_out,
+augmented:001355,Not a smell,train_cv,10
+augmented:001356,Not a smell,train_cv,7
+augmented:001357,Obvious,held_out,
+augmented:001358,Not a smell,train_cv,10
+augmented:001359,Not a smell,held_out,
+augmented:001360,Obvious,train_cv,8
+augmented:001361,Not a smell,held_out,
+augmented:001362,Not a smell,train_cv,4
+augmented:001363,Not a smell,train_cv,4
+augmented:001364,Not a smell,held_out,
+augmented:001365,Not a smell,held_out,
+augmented:001366,Not a smell,train_cv,7
+augmented:001367,Not a smell,train_cv,1
+augmented:001368,Obvious,train_cv,4
+augmented:001369,Not a smell,train_cv,6
+augmented:001370,Beautification,train_cv,4
+augmented:001371,Beautification,train_cv,1
+augmented:001372,Not a smell,train_cv,5
+augmented:001373,Not a smell,train_cv,3
+augmented:001374,Not a smell,train_cv,7
+augmented:001375,Not a smell,train_cv,10
+augmented:001376,Not a smell,train_cv,4
+augmented:001377,Obvious,train_cv,10
+augmented:001378,Not a smell,train_cv,3
+augmented:001379,Not a smell,train_cv,6
+augmented:001380,Not a smell,train_cv,5
+augmented:001381,Not a smell,train_cv,10
+augmented:001382,Not a smell,held_out,
+augmented:001383,Not a smell,held_out,
+augmented:001384,Not a smell,train_cv,6
+augmented:001385,Obvious,train_cv,2
+augmented:001386,Obvious,train_cv,3
+augmented:001387,Not a smell,train_cv,10
+augmented:001388,Not a smell,train_cv,1
+augmented:001389,Not a smell,held_out,
+augmented:001390,Obvious,train_cv,5
+augmented:001391,Obvious,held_out,
+augmented:001392,Not a smell,train_cv,3
+augmented:001393,Not a smell,train_cv,10
+augmented:001394,Not a smell,train_cv,1
+augmented:001395,Not a smell,train_cv,4
+augmented:001396,Obvious,held_out,
+augmented:001397,Obvious,train_cv,2
+augmented:001398,Obvious,train_cv,9
+augmented:001399,Not a smell,train_cv,2
+augmented:001400,Obvious,held_out,
+augmented:001401,Not a smell,train_cv,5
+augmented:001402,Task,train_cv,1
+augmented:001403,Not a smell,train_cv,3
+augmented:001404,Not a smell,train_cv,5
+augmented:001405,Obvious,train_cv,10
+augmented:001406,Not a smell,train_cv,5
+augmented:001407,Task,train_cv,1
+augmented:001408,Not a smell,held_out,
+augmented:001409,Obvious,train_cv,6
+augmented:001410,Obvious,held_out,
+augmented:001411,Obvious,train_cv,2
+augmented:001412,Task,held_out,
+augmented:001413,Not a smell,train_cv,4
+augmented:001414,Not a smell,held_out,
+augmented:001415,Not a smell,train_cv,1
+augmented:001416,Obvious,held_out,
+augmented:001417,Not a smell,train_cv,4
+augmented:001418,Obvious,held_out,
+augmented:001419,Not a smell,train_cv,9
+augmented:001420,Obvious,train_cv,7
+augmented:001421,Not a smell,train_cv,7
+augmented:001422,Not a smell,train_cv,9
+augmented:001423,Not a smell,train_cv,4
+augmented:001424,Not a smell,train_cv,4
+augmented:001425,Not a smell,train_cv,8
+augmented:001426,Not a smell,held_out,
+augmented:001427,Vague,train_cv,1
+augmented:001428,Not a smell,train_cv,6
+augmented:001429,Not a smell,train_cv,2
+augmented:001430,Not a smell,train_cv,5
+augmented:001431,Not a smell,train_cv,1
+augmented:001432,Not a smell,train_cv,5
+augmented:001433,Not a smell,train_cv,4
+augmented:001434,Not a smell,train_cv,5
+augmented:001435,Not a smell,train_cv,8
+augmented:001436,Not a smell,train_cv,6
+augmented:001437,Not a smell,train_cv,10
+augmented:001438,Not a smell,train_cv,10
+augmented:001439,Not a smell,train_cv,2
+augmented:001441,Not a smell,train_cv,9
+augmented:001442,Not a smell,held_out,
+augmented:001443,Not a smell,train_cv,9
+augmented:001444,Not a smell,train_cv,1
+augmented:001445,Obvious,train_cv,7
+augmented:001446,Obvious,held_out,
+augmented:001447,Obvious,train_cv,9
+augmented:001448,Obvious,train_cv,6
+augmented:001449,Not a smell,train_cv,1
+augmented:001450,Not a smell,train_cv,7
+augmented:001451,Not a smell,train_cv,5
+augmented:001452,Not a smell,train_cv,8
+augmented:001453,Not a smell,train_cv,8
+augmented:001454,Obvious,train_cv,2
+augmented:001455,Not a smell,train_cv,3
+augmented:001456,Vague,train_cv,10
+augmented:001457,Vague,train_cv,8
+augmented:001458,Obvious,held_out,
+augmented:001459,Obvious,held_out,
+augmented:001460,Obvious,train_cv,8
+augmented:001461,Not a smell,train_cv,10
+augmented:001462,Not a smell,train_cv,9
+augmented:001463,Not a smell,train_cv,6
+augmented:001464,Not a smell,train_cv,3
+augmented:001465,Not a smell,train_cv,9
+augmented:001466,Not a smell,held_out,
+augmented:001467,Not a smell,train_cv,2
+augmented:001468,Not a smell,train_cv,1
+augmented:001469,Not a smell,train_cv,9
+augmented:001470,Not a smell,held_out,
+augmented:001471,Not a smell,held_out,
+augmented:001472,Not a smell,train_cv,5
+augmented:001473,Not a smell,held_out,
+augmented:001474,Not a smell,train_cv,1
+augmented:001475,Not a smell,train_cv,10
+augmented:001476,Not a smell,held_out,
+augmented:001477,Not a smell,held_out,
+augmented:001478,Not a smell,train_cv,1
+augmented:001479,Not a smell,held_out,
+augmented:001480,Not a smell,train_cv,4
+augmented:001481,Not a smell,held_out,
+augmented:001482,Not a smell,held_out,
+augmented:001483,Not a smell,held_out,
+augmented:001484,Not a smell,train_cv,1
+augmented:001485,Not a smell,train_cv,2
+augmented:001486,Not a smell,train_cv,4
+augmented:001487,Not a smell,held_out,
+augmented:001488,Not a smell,train_cv,4
+augmented:001489,Not a smell,held_out,
+augmented:001490,Beautification,train_cv,3
+augmented:001491,Beautification,train_cv,5
+augmented:001492,Not a smell,train_cv,6
+augmented:001493,Not a smell,train_cv,6
+augmented:001494,Not a smell,held_out,
+augmented:001495,Not a smell,held_out,
+augmented:001496,Not a smell,train_cv,9
+augmented:001497,Not a smell,train_cv,5
+augmented:001498,Not a smell,train_cv,2
+augmented:001499,Obvious,train_cv,4
+augmented:001500,Not a smell,train_cv,10
+augmented:001501,Not a smell,train_cv,9
+augmented:001502,Not a smell,train_cv,5
+augmented:001503,Not a smell,train_cv,6
+augmented:001504,Not a smell,train_cv,4
+augmented:001505,Not a smell,train_cv,4
+augmented:001506,Not a smell,train_cv,3
+augmented:001507,Not a smell,train_cv,4
+augmented:001508,Not a smell,held_out,
+augmented:001509,Not a smell,held_out,
+augmented:001510,Not a smell,train_cv,3
+augmented:001511,Not a smell,held_out,
+augmented:001512,Not a smell,held_out,
+augmented:001513,Not a smell,train_cv,9
+augmented:001514,Not a smell,train_cv,2
+augmented:001515,Not a smell,train_cv,1
+augmented:001516,Not a smell,train_cv,10
+augmented:001517,Not a smell,train_cv,10
+augmented:001518,Not a smell,train_cv,4
+augmented:001519,Not a smell,train_cv,3
+augmented:001520,Not a smell,train_cv,5
+augmented:001521,Not a smell,train_cv,10
+augmented:001522,Not a smell,train_cv,1
+augmented:001523,Not a smell,train_cv,2
+augmented:001524,Not a smell,train_cv,10
+augmented:001525,Not a smell,held_out,
+augmented:001526,Obvious,train_cv,10
+augmented:001527,Not a smell,train_cv,4
+augmented:001528,Not a smell,train_cv,10
+augmented:001529,Not a smell,train_cv,3
+augmented:001530,Not a smell,held_out,
+augmented:001531,Obvious,train_cv,10
+augmented:001532,Obvious,train_cv,1
+augmented:001533,Obvious,held_out,
+augmented:001534,Not a smell,train_cv,4
+augmented:001535,Not a smell,held_out,
+augmented:001536,Not a smell,train_cv,6
+augmented:001537,Not a smell,train_cv,9
+augmented:001538,Not a smell,train_cv,8
+augmented:001539,Not a smell,train_cv,9
+augmented:001540,Obvious,train_cv,9
+augmented:001541,Not a smell,train_cv,7
+augmented:001542,Obvious,train_cv,7
+augmented:001543,Obvious,train_cv,8
+augmented:001544,Not a smell,train_cv,9
+augmented:001545,Obvious,train_cv,9
+augmented:001546,Not a smell,train_cv,3
+augmented:001547,Obvious,held_out,
+augmented:001548,Not a smell,train_cv,3
+augmented:001549,Obvious,train_cv,8
+augmented:001550,Not a smell,train_cv,3
+augmented:001551,Not a smell,train_cv,5
+augmented:001552,Not a smell,train_cv,7
+augmented:001553,Not a smell,train_cv,10
+augmented:001554,Not a smell,train_cv,6
+augmented:001555,Beautification,train_cv,3
+augmented:001556,Obvious,train_cv,1
+augmented:001557,Not a smell,train_cv,8
+augmented:001558,Obvious,train_cv,1
+augmented:001559,Not a smell,train_cv,9
+augmented:001560,Obvious,train_cv,4
+augmented:001561,Obvious,train_cv,7
+augmented:001562,Obvious,held_out,
+augmented:001563,Not a smell,train_cv,2
+augmented:001564,Obvious,held_out,
+augmented:001565,Not a smell,train_cv,10
+augmented:001566,Obvious,train_cv,5
+augmented:001567,Not a smell,train_cv,4
+augmented:001568,Not a smell,train_cv,10
+augmented:001569,Not a smell,train_cv,7
+augmented:001570,Obvious,train_cv,1
+augmented:001571,Not a smell,train_cv,2
+augmented:001572,Not a smell,train_cv,8
+augmented:001573,Obvious,train_cv,3
+augmented:001574,Not a smell,train_cv,4
+augmented:001575,Obvious,held_out,
+augmented:001576,Not a smell,held_out,
+augmented:001577,Not a smell,held_out,
+augmented:001578,Not a smell,train_cv,9
+augmented:001579,Not a smell,train_cv,10
+augmented:001580,Obvious,train_cv,10
+augmented:001581,Obvious,train_cv,2
+augmented:001582,Obvious,train_cv,7
+augmented:001583,Obvious,held_out,
+augmented:001584,Obvious,held_out,
+augmented:001585,Not a smell,train_cv,4
+augmented:001586,Not a smell,train_cv,6
+augmented:001587,Obvious,train_cv,7
+augmented:001588,Not a smell,train_cv,2
+augmented:001589,Vague,train_cv,9
+augmented:001590,Not a smell,train_cv,4
+augmented:001591,Not a smell,train_cv,4
+augmented:001592,Obvious,train_cv,1
+augmented:001593,Obvious,train_cv,1
+augmented:001594,Obvious,held_out,
+augmented:001595,Not a smell,train_cv,4
+augmented:001596,Not a smell,train_cv,9
+augmented:001597,Not a smell,train_cv,3
+augmented:001598,Not a smell,train_cv,2
+augmented:001599,Not a smell,held_out,
+augmented:001600,Not a smell,train_cv,1
+augmented:001601,Not a smell,train_cv,5
+augmented:001602,Not a smell,held_out,
+augmented:001603,Not a smell,train_cv,8
+augmented:001604,Not a smell,train_cv,7
+augmented:001605,Not a smell,train_cv,6
+augmented:001606,Not a smell,train_cv,2
+augmented:001607,Not a smell,train_cv,6
+augmented:001608,Not a smell,train_cv,2
+augmented:001609,Not a smell,train_cv,6
+augmented:001610,Not a smell,train_cv,9
+augmented:001611,Not a smell,train_cv,1
+augmented:001612,Obvious,train_cv,2
+augmented:001613,Not a smell,train_cv,7
+augmented:001614,Not a smell,held_out,
+augmented:001615,Not a smell,train_cv,7
+augmented:001616,Task,train_cv,1
+augmented:001617,Not a smell,train_cv,7
+augmented:001618,Not a smell,held_out,
+augmented:001619,Task,train_cv,2
+augmented:001620,Obvious,train_cv,3
+augmented:001621,Beautification,train_cv,6
+augmented:001622,Not a smell,train_cv,9
+augmented:001623,Not a smell,held_out,
+augmented:001624,Task,train_cv,4
+augmented:001625,Task,train_cv,4
+augmented:001626,Not a smell,held_out,
+augmented:001627,Obvious,train_cv,10
+augmented:001628,Task,train_cv,2
+augmented:001629,Not a smell,train_cv,7
+augmented:001630,Not a smell,train_cv,2
+augmented:001631,Obvious,train_cv,4
+augmented:001632,Obvious,train_cv,4
+augmented:001633,Obvious,train_cv,2
+augmented:001634,Not a smell,train_cv,7
+augmented:001635,Obvious,train_cv,6
+augmented:001636,Beautification,train_cv,6
+augmented:001637,Not a smell,train_cv,3
+augmented:001638,Not a smell,train_cv,1
+augmented:001639,Not a smell,train_cv,9
+augmented:001640,Not a smell,train_cv,8
+augmented:001641,Beautification,held_out,
+augmented:001642,Not a smell,held_out,
+augmented:001644,Task,train_cv,7
+augmented:001645,Not a smell,train_cv,6
+augmented:001646,Not a smell,train_cv,3
+augmented:001647,Not a smell,train_cv,7
+augmented:001648,Not a smell,train_cv,3
+augmented:001649,Obvious,train_cv,6
+augmented:001650,Obvious,train_cv,7
+augmented:001651,Obvious,held_out,
+augmented:001652,Obvious,train_cv,6
+augmented:001653,Obvious,train_cv,2
+augmented:001654,Not a smell,train_cv,1
+augmented:001655,Not a smell,train_cv,9
+augmented:001656,Not a smell,train_cv,7
+augmented:001657,Not a smell,train_cv,2
+augmented:001658,Beautification,train_cv,3
+augmented:001659,Not a smell,train_cv,5
+augmented:001660,Not a smell,train_cv,3
+augmented:001661,Not a smell,train_cv,1
+augmented:001662,Vague,train_cv,5
+augmented:001663,Not a smell,train_cv,4
+augmented:001664,Not a smell,train_cv,2
+augmented:001665,Beautification,train_cv,1
+augmented:001666,Not a smell,train_cv,1
+augmented:001667,Not a smell,train_cv,1
+augmented:001668,Task,held_out,
+augmented:001669,Not a smell,held_out,
+augmented:001670,Not a smell,train_cv,7
+augmented:001671,Not a smell,train_cv,4
+augmented:001672,Not a smell,train_cv,1
+augmented:001673,Beautification,train_cv,7
+augmented:001674,Not a smell,held_out,
+augmented:001675,Not a smell,held_out,
+augmented:001676,Not a smell,held_out,
+augmented:001677,Not a smell,train_cv,10
+augmented:001678,Not a smell,train_cv,2
+augmented:001679,Not a smell,train_cv,3
+augmented:001680,Not a smell,train_cv,7
+augmented:001681,Not a smell,train_cv,1
+augmented:001682,Not a smell,held_out,
+augmented:001683,Not a smell,train_cv,4
+augmented:001684,Not a smell,train_cv,3
+augmented:001685,Not a smell,train_cv,8
+augmented:001686,Not a smell,train_cv,8
+augmented:001687,Not a smell,train_cv,1
+augmented:001688,Not a smell,train_cv,2
+augmented:001689,Not a smell,train_cv,9
+augmented:001690,Not a smell,train_cv,7
+augmented:001691,Not a smell,held_out,
+augmented:001692,Not a smell,train_cv,8
+augmented:001693,Obvious,train_cv,10
+augmented:001694,Obvious,held_out,
+augmented:001695,Task,train_cv,6
+augmented:001696,Obvious,train_cv,5
+augmented:001697,Not a smell,train_cv,8
+augmented:001698,Obvious,train_cv,3
+augmented:001699,Not a smell,train_cv,8
+augmented:001700,Obvious,train_cv,8
+augmented:001701,Task,train_cv,6
+augmented:001702,Obvious,train_cv,2
+augmented:001703,Obvious,train_cv,3
+augmented:001704,Not a smell,train_cv,9
+augmented:001705,Not a smell,train_cv,3
+augmented:001706,Not a smell,train_cv,7
+augmented:001707,Obvious,held_out,
+augmented:001708,Obvious,train_cv,8
+augmented:001709,Obvious,train_cv,10
+augmented:001710,Not a smell,train_cv,6
+augmented:001711,Obvious,train_cv,1
+augmented:001712,Obvious,train_cv,7
+augmented:001713,Obvious,train_cv,10
+augmented:001714,Obvious,held_out,
+augmented:001715,Not a smell,held_out,
+augmented:001716,Obvious,train_cv,9
+augmented:001717,Not a smell,held_out,
+augmented:001718,Obvious,train_cv,6
+augmented:001719,Obvious,train_cv,7
+augmented:001720,Not a smell,train_cv,3
+augmented:001721,Vague,train_cv,6
+augmented:001722,Not a smell,train_cv,5
+augmented:001723,Obvious,held_out,
+augmented:001724,Obvious,train_cv,4
+augmented:001725,Not a smell,train_cv,2
+augmented:001726,Not a smell,train_cv,9
+augmented:001727,Not a smell,train_cv,5
+augmented:001728,Not a smell,train_cv,1
+augmented:001729,Not a smell,train_cv,6
+augmented:001730,Obvious,train_cv,6
+augmented:001731,Not a smell,train_cv,5
+augmented:001732,Obvious,held_out,
+augmented:001733,Obvious,held_out,
+augmented:001734,Beautification,held_out,
+augmented:001735,Obvious,held_out,
+augmented:001736,Obvious,held_out,
+augmented:001737,Not a smell,train_cv,8
+augmented:001738,Obvious,train_cv,6
+augmented:001739,Not a smell,held_out,
+augmented:001740,Obvious,train_cv,5
+augmented:001741,Not a smell,held_out,
+augmented:001742,Beautification,train_cv,9
+augmented:001743,Not a smell,train_cv,10
+augmented:001744,Not a smell,train_cv,8
+augmented:001745,Not a smell,train_cv,7
+augmented:001746,Obvious,train_cv,6
+augmented:001747,Obvious,train_cv,7
+augmented:001748,Not a smell,train_cv,5
+augmented:001749,Task,train_cv,5
+augmented:001750,Beautification,train_cv,10
+augmented:001751,Not a smell,train_cv,7
+augmented:001752,Obvious,train_cv,10
+augmented:001753,Obvious,train_cv,6
+augmented:001754,Obvious,held_out,
+augmented:001755,Obvious,train_cv,5
+augmented:001756,Obvious,train_cv,3
+augmented:001757,Obvious,train_cv,3
+augmented:001758,Obvious,train_cv,9
+augmented:001759,Obvious,train_cv,10
+augmented:001760,Obvious,train_cv,7
+augmented:001761,Not a smell,train_cv,4
+augmented:001762,Obvious,train_cv,1
+augmented:001763,Obvious,train_cv,5
+augmented:001764,Not a smell,held_out,
+augmented:001765,Not a smell,train_cv,4
+augmented:001766,Obvious,train_cv,2
+augmented:001767,Not a smell,train_cv,9
+augmented:001768,Not a smell,held_out,
+augmented:001769,Not a smell,held_out,
+augmented:001770,Not a smell,train_cv,3
+augmented:001771,Not a smell,train_cv,8
+augmented:001772,Obvious,train_cv,3
+augmented:001773,Obvious,train_cv,1
+augmented:001774,Not a smell,train_cv,2
+augmented:001775,Not a smell,train_cv,5
+augmented:001776,Not a smell,held_out,
+augmented:001777,Not a smell,train_cv,8
+augmented:001778,Not a smell,train_cv,3
+augmented:001779,Obvious,train_cv,1
+augmented:001780,Obvious,train_cv,5
+augmented:001781,Not a smell,train_cv,6
+augmented:001782,Not a smell,train_cv,1
+augmented:001783,Not a smell,train_cv,7
+augmented:001784,Not a smell,train_cv,3
+augmented:001785,Obvious,train_cv,3
+augmented:001786,Obvious,train_cv,6
+augmented:001787,Task,train_cv,6
+augmented:001788,Obvious,train_cv,8
+augmented:001789,Not a smell,train_cv,1
+augmented:001790,Not a smell,held_out,
+augmented:001791,Not a smell,train_cv,3
+augmented:001792,Not a smell,train_cv,3
+augmented:001793,Not a smell,train_cv,10
+augmented:001794,Not a smell,train_cv,4
+augmented:001795,Vague,train_cv,1
+augmented:001796,Not a smell,train_cv,2
+augmented:001797,Obvious,train_cv,6
+augmented:001798,Not a smell,held_out,
+augmented:001799,Not a smell,held_out,
+augmented:001800,Not a smell,held_out,
+augmented:001801,Obvious,train_cv,8
+augmented:001802,Task,train_cv,1
+augmented:001803,Not a smell,train_cv,6
+augmented:001804,Not a smell,held_out,
+augmented:001805,Not a smell,train_cv,10
+augmented:001806,Task,train_cv,8
+augmented:001807,Not a smell,train_cv,2
+augmented:001808,Not a smell,train_cv,2
+augmented:001809,Vague,held_out,
+augmented:001810,Not a smell,train_cv,2
+augmented:001811,Not a smell,train_cv,10
+augmented:001812,Not a smell,train_cv,9
+augmented:001813,Not a smell,train_cv,5
+augmented:001814,Not a smell,train_cv,5
+augmented:001815,Not a smell,train_cv,10
+augmented:001816,Not a smell,held_out,
+augmented:001817,Not a smell,train_cv,9
+augmented:001818,Not a smell,train_cv,7
+augmented:001819,Not a smell,train_cv,2
+augmented:001820,Not a smell,train_cv,4
+augmented:001821,Not a smell,held_out,
+augmented:001822,Not a smell,train_cv,6
+augmented:001823,Not a smell,train_cv,5
+augmented:001824,Obvious,train_cv,3
+augmented:001825,Not a smell,train_cv,4
+augmented:001826,Not a smell,held_out,
+augmented:001827,Not a smell,held_out,
+augmented:001828,Obvious,train_cv,10
+augmented:001829,Task,train_cv,2
+augmented:001830,Not a smell,train_cv,3
+augmented:001831,Obvious,held_out,
+augmented:001833,Task,train_cv,9
+augmented:001834,Obvious,train_cv,8
+augmented:001835,Obvious,held_out,
+augmented:001836,Obvious,train_cv,1
+augmented:001837,Obvious,held_out,
+augmented:001838,Obvious,train_cv,2
+augmented:001839,Not a smell,train_cv,10
+augmented:001840,Not a smell,train_cv,8
+augmented:001841,Not a smell,held_out,
+augmented:001842,Not a smell,train_cv,10
+augmented:001843,Not a smell,train_cv,3
+augmented:001844,Obvious,train_cv,6
+augmented:001845,Obvious,train_cv,10
+augmented:001846,Obvious,train_cv,1
+augmented:001847,Not a smell,held_out,
+augmented:001848,Vague,train_cv,9
+augmented:001849,Not a smell,held_out,
+augmented:001850,Not a smell,train_cv,6
+augmented:001851,Not a smell,train_cv,2
+augmented:001852,Not a smell,train_cv,10
+augmented:001853,Not a smell,train_cv,3
+augmented:001854,Not a smell,train_cv,2
+augmented:001855,Not a smell,train_cv,9
+augmented:001856,Not a smell,train_cv,1
+augmented:001857,Not a smell,train_cv,4
+augmented:001858,Not a smell,train_cv,6
+augmented:001859,Not a smell,train_cv,2
+augmented:001860,Not a smell,train_cv,5
+augmented:001861,Not a smell,train_cv,6
+augmented:001862,Not a smell,held_out,
+augmented:001863,Not a smell,train_cv,7
+augmented:001864,Not a smell,held_out,
+augmented:001865,Task,train_cv,8
+augmented:001866,Obvious,train_cv,7
+augmented:001868,Not a smell,train_cv,5
+augmented:001869,Not a smell,held_out,
+augmented:001870,Not a smell,held_out,
+augmented:001871,Task,train_cv,2
+augmented:001872,Not a smell,train_cv,6
+augmented:001873,Task,train_cv,9
+augmented:001874,Obvious,train_cv,9
+augmented:001875,Not a smell,train_cv,10
+augmented:001876,Not a smell,train_cv,3
+augmented:001877,Not a smell,train_cv,5
+augmented:001878,Not a smell,train_cv,1
+augmented:001879,Not a smell,train_cv,9
+augmented:001880,Task,train_cv,3
+augmented:001881,Task,train_cv,9
+augmented:001882,Not a smell,train_cv,5
+augmented:001883,Obvious,train_cv,5
+augmented:001884,Not a smell,train_cv,2
+augmented:001885,Not a smell,train_cv,8
+augmented:001886,Not a smell,held_out,
+augmented:001887,Not a smell,held_out,
+augmented:001888,Not a smell,train_cv,1
+augmented:001889,Task,held_out,
+augmented:001890,Not a smell,held_out,
+augmented:001891,Not a smell,held_out,
+augmented:001892,Not a smell,held_out,
+augmented:001893,Not a smell,train_cv,4
+augmented:001894,Not a smell,train_cv,8
+augmented:001895,Not a smell,train_cv,9
+augmented:001896,Not a smell,train_cv,4
+augmented:001897,Not a smell,train_cv,4
+augmented:001898,Not a smell,train_cv,10
+augmented:001899,Not a smell,held_out,
+augmented:001900,Not a smell,train_cv,6
+augmented:001901,Not a smell,train_cv,9
+augmented:001902,Obvious,train_cv,5
+augmented:001903,Obvious,train_cv,1
+augmented:001904,Obvious,train_cv,9
+augmented:001905,Obvious,held_out,
+augmented:001906,Obvious,train_cv,4
+augmented:001907,Not a smell,train_cv,8
+augmented:001908,Beautification,train_cv,10
+augmented:001909,Not a smell,train_cv,8
+augmented:001910,Not a smell,held_out,
+augmented:001911,Not a smell,train_cv,1
+augmented:001912,Beautification,train_cv,1
+augmented:001913,Not a smell,train_cv,8
+augmented:001914,Commented out code,held_out,
+augmented:001915,Beautification,train_cv,9
+augmented:001916,Not a smell,held_out,
+augmented:001917,Obvious,train_cv,4
+augmented:001918,Not a smell,train_cv,5
+augmented:001919,Not a smell,train_cv,3
+augmented:001920,Not a smell,train_cv,5
+augmented:001921,Not a smell,train_cv,6
+augmented:001922,Obvious,train_cv,5
+augmented:001923,Obvious,train_cv,2
+augmented:001924,Not a smell,train_cv,5
+augmented:001925,Obvious,train_cv,9
+augmented:001926,Not a smell,train_cv,4
+augmented:001927,Obvious,train_cv,1
+augmented:001928,Obvious,train_cv,4
+augmented:001929,Obvious,train_cv,10
+augmented:001930,Not a smell,train_cv,5
+augmented:001931,Not a smell,train_cv,6
+augmented:001932,Obvious,train_cv,6
+augmented:001933,Not a smell,train_cv,8
+augmented:001934,Obvious,train_cv,7
+augmented:001935,Not a smell,train_cv,3
+augmented:001936,Obvious,train_cv,8
+augmented:001937,Not a smell,held_out,
+augmented:001938,Not a smell,train_cv,3
+augmented:001939,Obvious,held_out,
+augmented:001940,Obvious,train_cv,7
+augmented:001941,Obvious,held_out,
+augmented:001942,Obvious,train_cv,2
+augmented:001943,Not a smell,train_cv,4
+augmented:001944,Not a smell,train_cv,7
+augmented:001945,Not a smell,held_out,
+augmented:001946,Not a smell,held_out,
+augmented:001947,Not a smell,train_cv,2
+augmented:001948,Not a smell,train_cv,9
+augmented:001949,Not a smell,held_out,
+augmented:001950,Obvious,held_out,
+augmented:001951,Not a smell,train_cv,3
+augmented:001952,Obvious,train_cv,3
+augmented:001953,Obvious,train_cv,3
+augmented:001954,Not a smell,train_cv,8
+augmented:001955,Obvious,train_cv,4
+augmented:001956,Not a smell,held_out,
+augmented:001957,Obvious,train_cv,1
+augmented:001958,Not a smell,train_cv,10
+augmented:001959,Obvious,train_cv,8
+augmented:001960,Not a smell,train_cv,7
+augmented:001961,Not a smell,held_out,
+augmented:001962,Obvious,held_out,
+augmented:001963,Task,held_out,
+augmented:001964,Not a smell,train_cv,7
+augmented:001965,Not a smell,train_cv,4
+augmented:001966,Beautification,train_cv,1
+augmented:001967,Obvious,train_cv,5
+augmented:001968,Obvious,held_out,
+augmented:001969,Obvious,held_out,
+augmented:001970,Not a smell,held_out,
+augmented:001971,Obvious,train_cv,8
+augmented:001972,Obvious,train_cv,9
+augmented:001973,Commented out code,train_cv,10
+augmented:001974,Not a smell,train_cv,3
+augmented:001975,Not a smell,train_cv,8
+augmented:001976,Obvious,train_cv,5
+augmented:001977,Obvious,held_out,
+augmented:001978,Not a smell,train_cv,9
+augmented:001979,Not a smell,train_cv,9
+augmented:001980,Not a smell,train_cv,1
+augmented:001981,Obvious,train_cv,7
+augmented:001982,Not a smell,train_cv,2
+augmented:001983,Not a smell,train_cv,4
+augmented:001984,Not a smell,train_cv,10
+augmented:001985,Not a smell,held_out,
+augmented:001986,Not a smell,train_cv,9
+augmented:001987,Obvious,train_cv,7
+augmented:001988,Obvious,train_cv,7
+augmented:001989,Obvious,train_cv,5
+augmented:001990,Not a smell,held_out,
+augmented:001991,Not a smell,train_cv,6
+augmented:001992,Not a smell,train_cv,2
+augmented:001993,Beautification,train_cv,5
+augmented:001994,Not a smell,train_cv,5
+augmented:001995,Not a smell,train_cv,8
+augmented:001996,Not a smell,train_cv,2
+augmented:001997,Obvious,train_cv,1
+augmented:001998,Obvious,train_cv,2
+augmented:001999,Obvious,train_cv,9
+augmented:002000,Not a smell,train_cv,2
+augmented:002001,Task,held_out,
+augmented:002002,Not a smell,held_out,
+augmented:002003,Task,held_out,
+augmented:002004,Not a smell,train_cv,4
+augmented:002005,Not a smell,train_cv,4
+augmented:002006,Not a smell,train_cv,6
+augmented:002007,Not a smell,held_out,
+augmented:002008,Task,train_cv,5
+augmented:002009,Not a smell,train_cv,8
+augmented:002010,Not a smell,train_cv,5
+augmented:002011,Not a smell,held_out,
+augmented:002012,Not a smell,train_cv,1
+augmented:002013,Not a smell,train_cv,8
+augmented:002015,Not a smell,train_cv,1
+augmented:002016,Not a smell,train_cv,8
+augmented:002017,Not a smell,train_cv,8
+augmented:002018,Not a smell,held_out,
+augmented:002019,Not a smell,train_cv,10
+augmented:002020,Not a smell,train_cv,5
+augmented:002021,Not a smell,train_cv,3
+augmented:002022,Not a smell,train_cv,1
+augmented:002023,Not a smell,train_cv,4
+augmented:002024,Not a smell,train_cv,1
+augmented:002025,Not a smell,train_cv,5
+augmented:002026,Not a smell,train_cv,9
+augmented:002027,Obvious,train_cv,4
+augmented:002028,Task,train_cv,3
+augmented:002029,Task,train_cv,2
+augmented:002030,Vague,train_cv,2
+augmented:002031,Task,held_out,
+augmented:002032,Obvious,train_cv,7
+augmented:002033,Obvious,train_cv,2
+augmented:002034,Vague,held_out,
+augmented:002035,Obvious,train_cv,6
+augmented:002036,Not a smell,train_cv,1
+augmented:002037,Not a smell,train_cv,7
+augmented:002038,Not a smell,train_cv,5
+augmented:002039,Not a smell,train_cv,9
+augmented:002040,Not a smell,held_out,
+augmented:002041,Beautification,train_cv,8
+augmented:002043,Obvious,train_cv,5
+augmented:002044,Beautification,held_out,
+augmented:002045,Not a smell,held_out,
+augmented:002046,Beautification,train_cv,6
+augmented:002047,Obvious,train_cv,5
+augmented:002048,Task,train_cv,3
+augmented:002049,Task,held_out,
+augmented:002050,Obvious,train_cv,2
+augmented:002051,Not a smell,train_cv,8
+augmented:002052,Not a smell,train_cv,8
+augmented:002053,Not a smell,train_cv,10
+augmented:002054,Not a smell,train_cv,1
+augmented:002055,Obvious,held_out,
+augmented:002056,Not a smell,held_out,
+augmented:002057,Vague,train_cv,5
+augmented:002058,Not a smell,train_cv,7
+augmented:002059,Not a smell,train_cv,1
+augmented:002060,Not a smell,train_cv,9
+augmented:002061,Not a smell,train_cv,1
+augmented:002062,Not a smell,train_cv,9
+augmented:002063,Obvious,train_cv,4
+augmented:002064,Not a smell,train_cv,1
+augmented:002065,Not a smell,train_cv,6
+augmented:002066,Not a smell,train_cv,2
+augmented:002067,Not a smell,train_cv,5
+augmented:002068,Obvious,train_cv,1
+augmented:002069,Not a smell,train_cv,3
+augmented:002070,Not a smell,train_cv,5
+augmented:002071,Not a smell,train_cv,7
+augmented:002072,Not a smell,train_cv,2
+augmented:002073,Not a smell,train_cv,9
+augmented:002074,Not a smell,train_cv,8
+augmented:002075,Not a smell,train_cv,3
+augmented:002076,Obvious,train_cv,3
+augmented:002077,Not a smell,train_cv,4
+augmented:002078,Not a smell,held_out,
+augmented:002079,Obvious,train_cv,9
+augmented:002080,Not a smell,train_cv,5
+augmented:002081,Not a smell,train_cv,6
+augmented:002082,Not a smell,train_cv,4
+augmented:002083,Not a smell,train_cv,9
+augmented:002084,Task,held_out,
+augmented:002085,Not a smell,train_cv,5
+augmented:002086,Not a smell,train_cv,7
+augmented:002087,Not a smell,train_cv,6
+augmented:002088,Task,train_cv,6
+augmented:002089,Obvious,train_cv,7
+augmented:002090,Not a smell,train_cv,10
+augmented:002091,Obvious,train_cv,5
+augmented:002092,Not a smell,held_out,
+augmented:002093,Not a smell,train_cv,3
+augmented:002094,Not a smell,held_out,
+augmented:002095,Obvious,train_cv,6
+augmented:002096,Not a smell,train_cv,7
+augmented:002097,Not a smell,train_cv,10
+augmented:002098,Not a smell,train_cv,9
+augmented:002099,Not a smell,train_cv,10
+augmented:002100,Not a smell,train_cv,3
+augmented:002101,Not a smell,train_cv,9
+augmented:002103,Not a smell,train_cv,6
+augmented:002104,Not a smell,held_out,
+augmented:002105,Not a smell,held_out,
+augmented:002106,Not a smell,train_cv,2
+augmented:002107,Not a smell,train_cv,7
+augmented:002108,Beautification,held_out,
+augmented:002109,Not a smell,train_cv,7
+augmented:002110,Not a smell,held_out,
+augmented:002111,Not a smell,train_cv,8
+augmented:002112,Not a smell,train_cv,8
+augmented:002113,Not a smell,train_cv,4
+augmented:002114,Obvious,train_cv,3
+augmented:002115,Not a smell,train_cv,4
+augmented:002116,Not a smell,train_cv,5
+augmented:002117,Not a smell,train_cv,7
+augmented:002118,Not a smell,held_out,
+augmented:002119,Not a smell,train_cv,9
+augmented:002120,Obvious,held_out,
+augmented:002121,Not a smell,held_out,
+augmented:002122,Not a smell,train_cv,1
+augmented:002123,Not a smell,train_cv,6
+augmented:002124,Obvious,train_cv,4
+augmented:002125,Task,train_cv,9
+augmented:002126,Not a smell,held_out,
+augmented:002127,Not a smell,held_out,
+augmented:002128,Not a smell,train_cv,7
+augmented:002129,Not a smell,held_out,
+augmented:002130,Not a smell,train_cv,3
+augmented:002131,Not a smell,train_cv,10
+augmented:002132,Obvious,train_cv,6
+augmented:002133,Not a smell,held_out,
+augmented:002134,Vague,train_cv,4
+augmented:002135,Not a smell,train_cv,6
+augmented:002136,Not a smell,train_cv,10
+augmented:002137,Task,train_cv,10
+augmented:002138,Not a smell,held_out,
+augmented:002139,Not a smell,train_cv,7
+augmented:002140,Task,train_cv,9
+augmented:002141,Task,held_out,
+augmented:002142,Task,train_cv,2
+augmented:002143,Task,train_cv,10
+augmented:002144,Obvious,train_cv,2
+augmented:002145,Not a smell,held_out,
+augmented:002146,Obvious,train_cv,5
+augmented:002147,Obvious,train_cv,2
+augmented:002148,Not a smell,held_out,
+augmented:002149,Not a smell,train_cv,1
+augmented:002150,Obvious,train_cv,6
+augmented:002151,Not a smell,train_cv,6
+augmented:002152,Not a smell,train_cv,6
+augmented:002153,Obvious,train_cv,10
+augmented:002154,Vague,train_cv,3
+augmented:002155,Not a smell,train_cv,9
+augmented:002156,Not a smell,train_cv,9
+augmented:002157,Not a smell,train_cv,9
+augmented:002158,Not a smell,train_cv,9
+augmented:002159,Not a smell,train_cv,7
+augmented:002160,Vague,train_cv,9
+augmented:002161,Not a smell,train_cv,3
+augmented:002162,Not a smell,train_cv,4
+augmented:002163,Obvious,train_cv,4
+augmented:002164,Not a smell,train_cv,4
+augmented:002165,Not a smell,train_cv,1
+augmented:002166,Obvious,train_cv,10
+augmented:002167,Not a smell,train_cv,2
+augmented:002168,Obvious,train_cv,1
+augmented:002169,Not a smell,train_cv,5
+augmented:002170,Not a smell,train_cv,9
+augmented:002171,Not a smell,train_cv,7
+augmented:002172,Not a smell,train_cv,4
+augmented:002173,Obvious,train_cv,8
+augmented:002174,Not a smell,train_cv,8
+augmented:002175,Not a smell,train_cv,1
+augmented:002176,Not a smell,train_cv,4
+augmented:002178,Not a smell,held_out,
+augmented:002179,Not a smell,train_cv,2
+augmented:002180,Obvious,train_cv,7
+augmented:002181,Obvious,train_cv,3
+augmented:002182,Not a smell,train_cv,9
+augmented:002183,Not a smell,train_cv,6
+augmented:002184,Not a smell,held_out,
+augmented:002185,Not a smell,train_cv,2
+augmented:002186,Obvious,train_cv,3
+augmented:002187,Not a smell,train_cv,8
+augmented:002188,Not a smell,train_cv,7
+augmented:002189,Not a smell,train_cv,10
+augmented:002190,Obvious,train_cv,10
+augmented:002191,Not a smell,train_cv,1
+augmented:002192,Obvious,train_cv,4
+augmented:002193,Not a smell,train_cv,1
+augmented:002194,Obvious,train_cv,10
+augmented:002195,Not a smell,held_out,
+augmented:002196,Not a smell,train_cv,5
+augmented:002197,Not a smell,train_cv,9
+augmented:002198,Not a smell,train_cv,4
+augmented:002199,Not a smell,train_cv,9
+augmented:002200,Not a smell,train_cv,1
+augmented:002201,Obvious,train_cv,10
+augmented:002202,Not a smell,train_cv,5
+augmented:002203,Obvious,held_out,
+augmented:002204,Not a smell,held_out,
+augmented:002205,Not a smell,held_out,
+augmented:002206,Not a smell,train_cv,6
+augmented:002207,Obvious,train_cv,3
+augmented:002208,Obvious,held_out,
+augmented:002209,Not a smell,held_out,
+augmented:002210,Not a smell,train_cv,5
+augmented:002211,Not a smell,train_cv,3
+augmented:002212,Not a smell,train_cv,3
+augmented:002213,Not a smell,held_out,
+augmented:002214,Obvious,train_cv,7
+augmented:002215,Task,train_cv,5
+augmented:002216,Not a smell,train_cv,5
+augmented:002217,Obvious,train_cv,10

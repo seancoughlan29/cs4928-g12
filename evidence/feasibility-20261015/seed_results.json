@@ -1,0 +1,30 @@
+{
+  "as_shipped": {
+    "retained_rows": 2189,
+    "training_rows": 1751,
+    "held_out_rows": 438,
+    "runs": [
+      {
+        "arm": "as_shipped",
+        "seed": 42,
+        "completed_cv_folds": 1,
+        "cv_accuracy_mean": 0.6818181818181818,
+        "cv_mcc_mean": 0.4118840524350313
+      }
+    ]
+  },
+  "paper_informed": {
+    "retained_rows": 2181,
+    "training_rows": 1744,
+    "held_out_rows": 437,
+    "runs": [
+      {
+        "arm": "paper_informed",
+        "seed": 42,
+        "completed_cv_folds": 1,
+        "cv_accuracy_mean": 0.64,
+        "cv_mcc_mean": 0.37939083957851577
+      }
+    ]
+  }
+}

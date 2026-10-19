@@ -1,0 +1,9 @@
+{
+  "original_artefact_files_unchanged": 11,
+  "original_M1_sha256": "1ec3b136a5492b3335702840a0eeca284930036cbf87e08e9fa22c247d2ae473",
+  "M1_unchanged": true,
+  "prepared_file_hashes_verified": 14,
+  "preparation_script_and_protocol_hashes_verified": true,
+  "model_calls": 0,
+  "validated_repairs": 0
+}

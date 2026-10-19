@@ -1,0 +1,13 @@
+Command: python3 -m unittest discover -s tests -p test_p12.py -v
+Scope: software checks; synthetic predictions only, not research results.
+
+test_actual_preparation_is_label_free_and_source_recoverable (test_p12.P12Tests.test_actual_preparation_is_label_free_and_source_recoverable) ... ok
+test_duplicate_ids_and_missing_batches_are_not_dropped (test_p12.P12Tests.test_duplicate_ids_and_missing_batches_are_not_dropped) ... ok
+test_metrics_known_matrix_including_invalid_output (test_p12.P12Tests.test_metrics_known_matrix_including_invalid_output) ... ok
+test_occurrence_ids_precede_filtering_and_keep_duplicate_text (test_p12.P12Tests.test_occurrence_ids_precede_filtering_and_keep_duplicate_text) ... ok
+test_saved_response_scoring_and_no_repair_success_claim (test_p12.P12Tests.test_saved_response_scoring_and_no_repair_success_claim) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.651s
+
+OK

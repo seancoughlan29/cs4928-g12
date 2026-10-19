@@ -1,0 +1,176 @@
+arm,seed,partition,fold,case_id,truth,prediction
+paper_informed,42,cv,1,augmented:001768,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001621,Beautification,Beautification
+paper_informed,42,cv,1,augmented:001452,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000325,Not a smell,Beautification
+paper_informed,42,cv,1,augmented:000829,Vague,Not a smell
+paper_informed,42,cv,1,augmented:001776,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000156,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001623,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000965,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:001604,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001993,Beautification,Beautification
+paper_informed,42,cv,1,augmented:001314,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000821,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002207,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000603,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000754,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000012,Obvious,Beautification
+paper_informed,42,cv,1,augmented:002041,Beautification,Beautification
+paper_informed,42,cv,1,augmented:001120,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:001350,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002017,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000039,Vague,Beautification
+paper_informed,42,cv,1,augmented:001575,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001324,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000298,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000410,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000610,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001437,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001638,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001381,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001652,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001696,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001987,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000738,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000181,Task,Beautification
+paper_informed,42,cv,1,augmented:001503,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001484,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000785,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000780,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000525,Commented out code,Obvious
+paper_informed,42,cv,1,augmented:000069,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002032,Obvious,Beautification
+paper_informed,42,cv,1,augmented:001990,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000145,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001672,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001468,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000876,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001064,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001705,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000154,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001938,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000859,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001332,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001483,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000279,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001759,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000099,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001510,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001972,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:002199,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000456,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000252,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001507,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000113,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001843,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000558,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001763,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000408,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001889,Task,Task
+paper_informed,42,cv,1,augmented:002121,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:001770,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000282,Task,Beautification
+paper_informed,42,cv,1,augmented:000789,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000148,Task,Task
+paper_informed,42,cv,1,augmented:000773,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000799,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000934,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001931,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000407,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000283,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001956,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:002088,Task,Task
+paper_informed,42,cv,1,augmented:000535,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001454,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001485,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001865,Task,Task
+paper_informed,42,cv,1,augmented:000770,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001616,Task,Task
+paper_informed,42,cv,1,augmented:000000,Task,Task
+paper_informed,42,cv,1,augmented:000066,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001988,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000342,Beautification,Beautification
+paper_informed,42,cv,1,augmented:000636,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000597,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000850,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001723,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000244,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000185,Not a smell,Task
+paper_informed,42,cv,1,augmented:002157,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000443,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000724,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000961,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000907,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000645,Task,Task
+paper_informed,42,cv,1,augmented:001596,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000089,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000634,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000122,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000763,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001080,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000261,Task,Task
+paper_informed,42,cv,1,augmented:000349,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001647,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:001769,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000482,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002077,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000460,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:002150,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000059,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000067,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002156,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000800,Commented out code,Beautification
+paper_informed,42,cv,1,augmented:001205,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002083,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001168,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001969,Obvious,Beautification
+paper_informed,42,cv,1,augmented:001041,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001807,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000208,Commented out code,Commented out code
+paper_informed,42,cv,1,augmented:000168,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001250,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000728,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000613,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000870,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000939,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000419,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000340,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000016,Obvious,Beautification
+paper_informed,42,cv,1,augmented:001443,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000916,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000809,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001669,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000736,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001513,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001589,Vague,Beautification
+paper_informed,42,cv,1,augmented:000839,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:002096,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002204,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002000,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:001737,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:002174,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001957,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001885,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000371,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001573,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000960,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000924,Obvious,Commented out code
+paper_informed,42,cv,1,augmented:000874,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001305,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000086,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000707,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001859,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:001174,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000365,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000670,Vague,Vague
+paper_informed,42,cv,1,augmented:000189,Obvious,Obvious
+paper_informed,42,cv,1,augmented:000691,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000967,Not a smell,Obvious
+paper_informed,42,cv,1,augmented:000344,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:000663,Obvious,Not a smell
+paper_informed,42,cv,1,augmented:001890,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:002051,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000954,Obvious,Obvious
+paper_informed,42,cv,1,augmented:001428,Not a smell,Not a smell
+paper_informed,42,cv,1,augmented:000398,Not a smell,Beautification

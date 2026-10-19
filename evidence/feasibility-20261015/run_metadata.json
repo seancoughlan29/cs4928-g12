@@ -1,0 +1,59 @@
+{
+  "started_utc": "2026-10-15T15:56:46.115147+00:00",
+  "stage": "feasibility",
+  "command": [
+    "scripts/reproduce.py",
+    "--stage",
+    "feasibility",
+    "--output",
+    "evidence/feasibility-20261015"
+  ],
+  "python": "3.10.22",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "packages": {
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "scikit-learn": "1.3.1",
+    "imbalanced-learn": "0.11.0",
+    "pandas": "2.0.3"
+  },
+  "dataset_sha256": "c571d1e3afdeac0e126d1bde6c476003797579996463332d3b167c4347dd2f68",
+  "script_sha256": "b372469af62da3270a621dc759e9f8f47b0210988cc2820c20590618aa78bd98",
+  "protocol_sha256": "20189211c83dbbf9228d11d5e5c237cc618646bcf02a2f8c52ef235928f93b02",
+  "protocol": {
+    "protocol_version": "2026-10-15-draft-1",
+    "status": "Proposed execution details; coordinator READY status and group agreement are unconfirmed",
+    "dataset": "original_artefact/augmented_dataset.json",
+    "dataset_sha256": "c571d1e3afdeac0e126d1bde6c476003797579996463332d3b167c4347dd2f68",
+    "model": "RandomForestClassifier",
+    "model_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+    ],
+    "split_seed": 42,
+    "cv_seed": 11,
+    "smote_seed": 11,
+    "test_size": 0.2,
+    "n_splits": 10,
+    "class_frequency_threshold": 30,
+    "random_forest_n_estimators": 100,
+    "reference_accuracy": 0.69,
+    "reference_mcc": 0.44,
+    "tolerance": 0.03,
+    "baseline_decision": "Both arithmetic means across ten seed-level CV means must be inside the inclusive reference bands",
+    "paper_informed_decision": "Primary: mean held-out MCC inside the inclusive 0.41 to 0.47 band, as specified in the repository M1 plan; CV results are reported separately",
+    "seed_interpretation": "Vary only Random Forest randomness; hold data split, CV partitions and SMOTE seed fixed. This measures model-randomness sensitivity, not split-to-split uncertainty.",
+    "text_interpretation": "Use the notebook's effective comment-plus-code text in both arms. Paper wording is ambiguous; do not claim an exact reconstruction of the authors' intended pipeline."
+  },
+  "milestone_status": "No coordinator approval or Git tag is inferred by this script.",
+  "finished_utc": "2026-10-15T15:56:48.832177+00:00",
+  "status": "success"
+}

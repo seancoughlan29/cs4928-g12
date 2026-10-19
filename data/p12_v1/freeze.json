@@ -1,0 +1,24 @@
+{
+  "created_at": "2026-10-17T17:39:28.319144+00:00",
+  "status": "INPUTS_PREPARED_NOT_A_COORDINATOR_APPROVAL_OR_MODEL_RUN",
+  "dataset_sha256": "62938c0e53f788f5bdf2e94dd4e5e6e5baa957bea79b4bd1ac7be16926e2a096",
+  "protocol_sha256": "43a05a22163d1dea8c9bfec05ff3f4725cdcf451f03aaa09f29fcfa3f99e845f",
+  "prompt_sha256": "adbcdca7b5e4da37507963960baee6dd73bc1726d3b23d4a4a753bab7b92b783",
+  "preparation_script_sha256": "01b64732f21b45bbf2fc0ddd60e315d193fd41f4f480448c6e46f52a916ac139",
+  "generated_files": {
+    "batches.json": "9c6aacb160ed46a727e40fe81e4902aa862a2fb4dbc4733522fe8084f291043a",
+    "model_inputs/batch_01.txt": "463003b8b9f4722b9d47675adf32d9b397d051ce1069be29d6be04181112a5d9",
+    "model_inputs/batch_02.txt": "1de4c85515aea6fd379a6bd7258b3360fdffccb6e49ff0d8d1c85651d84b6033",
+    "model_inputs/batch_03.txt": "17e32a69df1afec6c351456f356c8efbf2ed8258220f11b5dee5ce3ad1d1ae53",
+    "model_inputs/batch_04.txt": "f7b7206696bd856f352531008f4827754ac5c9ee9c8dab0eeca263fc513690dc",
+    "model_inputs/batch_05.txt": "b0a2e2f7d607a7dabbce11a3b5c22d75a18d385be71de6362cc1c8254d546c41",
+    "model_inputs/cases.json": "8142828d4b6cd5761c0cfc0dfac7856098ff4fc20c75522b47c6af8fdc9353e8",
+    "protocol.json": "d980c01138dd6456a2730beff456ebb61c42eb98f75c69cd83b89ffc067c7153",
+    "reference_only/exclusions.csv": "70aebdd02de610fc57a675fd8f9eb86f3ef31abb589ab0f6d0b1cbb401a64010",
+    "reference_only/labels.csv": "d8900acc130a7f820b436bd143702e8353804de0575dd47ec1c39b8195570bf0",
+    "reference_only/sample_audit.json": "809c1b0123c25e3a8d47ccf92bd924b5330545d9db88f3338fda2a07cf69a047",
+    "reference_only/source_snapshots/anki-android-edcf200c2ea6-Preferences.java": "edcf200c2ea6c9465dbd02ce8cbfc50250be62c0f8a278d3d10b44805d9d752d",
+    "run_record_template.json": "916c14c570b4589ca76f64473142061bca899413437d8c19b25da60f8f2be8a1",
+    "sample_manifest.csv": "2c3eb5aef0f57bc12b407770f5ec56682c93c24abf0485a982441a3027e8d368"
+  }
+}

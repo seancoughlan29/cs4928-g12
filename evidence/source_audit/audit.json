@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-10-15T15:55:54.902975+00:00",
+  "kind": "static_source_audit_not_a_reproduction",
+  "original_file_sha256": {
+    "original_artefact/OpenAI_augmented.py": "b89f44e4e51a6f40ff832109917ec0881b5b240013b478881173e67c9c7adcc7",
+    "original_artefact/OpenAI_original.py": "42d456e1028c900c010b0bfa6a3b1f4008bc6c258e4fb8f4a4837546a3a9c311",
+    "original_artefact/README.md": "1589e6f8b4461379b08980bef8e05904c83c49aac5c7b65357b728c2efdedfee",
+    "original_artefact/augmented_dataset.json": "c571d1e3afdeac0e126d1bde6c476003797579996463332d3b167c4347dd2f68",
+    "original_artefact/dataset.json": "62938c0e53f788f5bdf2e94dd4e5e6e5baa957bea79b4bd1ac7be16926e2a096",
+    "original_artefact/figures/cm_gpt4_augmented.png": "fb5975c018960983fbca27a043a3775993ba0cb2063b207eb29dfd02a123f85c",
+    "original_artefact/figures/cm_gpt4_original.png": "0df8fdf114dd259195cc8f1b6c7d53999ccfd9001276df934e93ac5c1390844b",
+    "original_artefact/figures/taxonomy.png": "34c3e6f17e209af723f85cca285a120320050fafcb26ff2819cb85232a977c86",
+    "original_artefact/models.ipynb": "f56c0e07458a238832f637be7dcf624885604cc627c12c7d5d173626857542c0",
+    "original_artefact/requirements.txt": "243b3368bef55021b27ab12f125e4dfe0d6e7676dbef67de7c6dc75619b9628f",
+    "original_artefact/section3_1.jpg": "29015ebc2840b9cbd1674b7ecc376f4d98c6dbf8d99f49f12fb6991fc6c577c2"
+  },
+  "preserved_m1_sha256": "1ec3b136a5492b3335702840a0eeca284930036cbf87e08e9fa22c247d2ae473",
+  "rows_before_filtering": 2218,
+  "class_counts_before_filtering": {
+    "Task": 121,
+    "Not a smell": 1257,
+    "Beautification": 49,
+    "Obvious": 675,
+    "Commented out code": 35,
+    "Vague": 52,
+    "Misleading": 15,
+    "Too much info": 6,
+    "Nonlocal info": 4,
+    "Irrelevant": 4
+  },
+  "rows_retained_as_shipped": 2189,
+  "class_counts_retained": {
+    "Task": 121,
+    "Not a smell": 1257,
+    "Beautification": 49,
+    "Obvious": 675,
+    "Commented out code": 35,
+    "Vague": 52
+  },
+  "duplicate_comment_label_rows_removed": 8,
+  "duplicate_row_ids": [
+    "augmented:000044",
+    "augmented:000127",
+    "augmented:000316",
+    "augmented:000471",
+    "augmented:001286",
+    "augmented:001342",
+    "augmented:001800",
+    "augmented:002192"
+  ],
+  "rows_after_deduplication": 2210,
+  "rows_after_deduplication_and_filtering": 2181,
+  "first_50_raw_rows_retained_by_class_filter": 49,
+  "stored_notebook_rf_cv_metrics_NOT_NEW_RESULTS": {
+    "accuracy": 0.6927564935064935,
+    "mcc": 0.44412565794847403
+  },
+  "cell_18_stored_output_count": 0,
+  "cell_numbering": "zero-based indices in the notebook cells array",
+  "audited_source_cells": {
+    "1": "\n\ndef read_data():\n    with open(\"./augmented_dataset.json\") as json_file:\n        dataset = json.load(json_file)\n\n    comment_data = []\n    for comment in dataset:\n        comment_text = comment[\"comment\"]\n        label = comment[\"label\"]\n        code = comment[\"code\"]\n        comment_data.append([comment_text, code, label])\n\n    return comment_data\n\n\ndef get_label_freq(comment_data):\n    freq = {}\n    for (comment, code, label) in comment_data:\n        if label not in freq:\n            freq[label] = 1\n        else:\n            freq[label] += 1\n\n    return freq\n\n\n# def remove_duplicates(comment_data):\n#     unique_comment_data = []\n#     seen = set()\n#     for (comment, code, label) in comment_data:\n#         if (comment, label) not in seen:\n#             unique_comment_data.append([comment, code, label])\n#             seen.add((comment, label))\n#     return unique_comment_data\n\ndef filter_data(comment_data, freq_threshold):\n    filtered_data = []\n    freq = get_label_freq(comment_data)\n\n    for (comment, code, label) in comment_data:\n        if freq[label] >= freq_threshold:\n            filtered_data.append([comment, code, label])\n\n    return filtered_data",
+    "4": "# data = remove_duplicates(data)\n# print(len(data))\n# get_label_freq(data)",
+    "6": "data = filter_data(data, 30)\nprint(len(data))\nget_label_freq(data)",
+    "7": "df = pd.DataFrame(data, columns = ['code', 'comment', 'label'])\n",
+    "9": "df['text'] = df.apply(lambda row: row['code'] + ' ' + row['comment'] if row['comment'] != \"NA\" else row['code'], axis=1)\n\n\n# Encode the labels\nlabel_encoder = LabelEncoder()\ndf['label'] = label_encoder.fit_transform(df['label'])\n\n# Split the text and labels\nX = df['text']\ny = df['label']\n\n",
+    "12": "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random_state=42)\ntfidf_vectorizer = TfidfVectorizer()\n",
+    "13": "# Define the models\nmodels = {\n    \"Gradient Boosting\": GradientBoostingClassifier(),\n    \"Random Forest\": RandomForestClassifier(),\n    \"Decision Tree\": DecisionTreeClassifier(),\n    \"SVM\": SVC(probability=True),\n    \"Logistic Regression\": LogisticRegression(max_iter=1000),\n    \"Naive Bayes\": MultinomialNB(alpha=0.1),\n    \"KNN\": KNeighborsClassifier(n_neighbors=3)\n}",
+    "14": "# Define the Stratified K-Fold\nstratified_kfold = StratifiedKFold(n_splits=10, shuffle=True, random_state=11)\n\n# Dictionary to store cross-validation scores\ncv_scores = {}",
+    "16": "# Train each model with 10-fold cross-validation\nfor model_name, model in models.items():\n    print(f\"\\nTraining and evaluating {model_name}...\")\n    accuracy_scores = []\n    mcc_scores = []\n    reports = []\n    matrices = []\n\n    for fold, (train_index, val_index) in enumerate(stratified_kfold.split(X_train, y_train), start=1):\n        print(f\"  Fold {fold}...\")\n        X_train_fold, X_val_fold = X_train.iloc[train_index], X_train.iloc[val_index]\n        y_train_fold, y_val_fold = y_train.iloc[train_index], y_train.iloc[val_index]\n\n        # Apply TfidfVectorizer to the training fold\n        vect = TfidfVectorizer()\n        X_train_fold_tfidf = vect.fit_transform(X_train_fold)\n        X_val_fold_tfidf = vect.transform(X_val_fold)\n        print(f\"    Vectorized training and validation data.\")\n\n        # Apply SMOTE to handle class imbalance\n        smote = SMOTE(random_state=11)\n        X_train_resampled, y_train_resampled = smote.fit_resample(X_train_fold_tfidf, y_train_fold)\n        print(f\"    Applied SMOTE to handle class imbalance.\")\n\n        # Train the model\n        model.fit(X_train_fold_tfidf, y_train_fold)\n        print(f\"    Model trained on resampled data.\")\n\n        # Predict labels and calculate accuracy\n        y_val_pred = model.predict(X_val_fold_tfidf)\n        accuracy = accuracy_score(y_val_fold, y_val_pred)\n        accuracy_scores.append(accuracy)\n        mcc = matthews_corrcoef(y_val_fold, y_val_pred)\n        mcc_scores.append(mcc)\n        print(f\"    Fold {fold} Accuracy: {accuracy}\")\n        print(f\"    Fold {fold} MCC: {mcc}\")\n\n        # Generate and store classification report and confusion matrix\n        report = classification_report(y_val_fold, y_val_pred)\n        matrix = confusion_matrix(y_val_fold, y_val_pred)\n        reports.append(report)\n        matrices.append(matrix)\n\n    mean_accuracy = np.mean(accuracy_scores)\n    mean_mcc = np.mean(mcc_scores)\n    cv_scores[model_name] = (mean_accuracy, mean_mcc)\n    print(f'{model_name} - Cross-validation score: {mean_accuracy}')\n    print(f'{model_name} - MCC score: {mean_mcc}')\n    # Print classification reports and confusion matrices for the last fold\n    print(f\"\\n{model_name} - Classification Report (Fold {fold}):\\n{reports[-1]}\")\n    print(f\"{model_name} - Confusion Matrix (Fold {fold}):\\n{matrices[-1]}\")\n\n# Print all cross-validation scores\nprint(\"\\nAll Cross-validation scores:\")\nfor model_name, score in cv_scores.items():\n    print(f'{model_name}: {score}')",
+    "18": "# Define MCC scorer\nmcc_scorer = make_scorer(matthews_corrcoef)\n\n# Perform 10-fold cross-validation\nresults = {}\ncv = StratifiedKFold(n_splits=10, shuffle=True, random_state=42)\n\nfor name, model in models.items():\n    pipeline = Pipeline([\n        ('vectorizer', TfidfVectorizer()),\n        ('smote', SMOTE(random_state=42)),\n        ('classifier', model)\n    ])\n\n    mcc_scores = cross_val_score(pipeline, X_train, y_train, cv=cv, scoring=mcc_scorer)\n    accuracy_scores = cross_val_score(pipeline, X_train, y_train, cv=cv, scoring='accuracy')\n\n    results[name] = {\n        \"MCC\": mcc_scores.mean(),\n        \"Accuracy\": accuracy_scores.mean()\n    }\n\n# Display results\nresults_df = pd.DataFrame(results).T\nprint(results_df)"
+  },
+  "limitations": [
+    "Saved output is not independent proof of execution provenance.",
+    "No model was trained by this audit.",
+    "No Event A or Event B material was inspected."
+  ]
+}

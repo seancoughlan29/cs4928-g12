@@ -1,0 +1,177 @@
+arm,seed,partition,fold,case_id,truth,prediction
+as_shipped,42,cv,1,augmented:000165,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000580,Obvious,Obvious
+as_shipped,42,cv,1,augmented:002015,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000775,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000206,Not a smell,Vague
+as_shipped,42,cv,1,augmented:002061,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000454,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000541,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001957,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000264,Vague,Not a smell
+as_shipped,42,cv,1,augmented:001468,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002193,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001911,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001444,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:000588,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001140,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001286,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000347,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:000446,Obvious,Beautification
+as_shipped,42,cv,1,augmented:000809,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000420,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001779,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000161,Obvious,Obvious
+as_shipped,42,cv,1,augmented:002149,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001253,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001449,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001427,Vague,Not a smell
+as_shipped,42,cv,1,augmented:001272,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001009,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001665,Beautification,Beautification
+as_shipped,42,cv,1,augmented:000073,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001558,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001102,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002012,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001997,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001600,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001681,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000289,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001402,Task,Not a smell
+as_shipped,42,cv,1,augmented:001083,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000041,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001309,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001211,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000500,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001856,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001616,Task,Not a smell
+as_shipped,42,cv,1,augmented:001903,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001180,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001194,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001478,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000717,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001762,Obvious,Obvious
+as_shipped,42,cv,1,augmented:002165,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002122,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001795,Vague,Not a smell
+as_shipped,42,cv,1,augmented:001474,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000567,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001407,Task,Not a smell
+as_shipped,42,cv,1,augmented:001415,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000475,Commented out code,Beautification
+as_shipped,42,cv,1,augmented:000158,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001672,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001667,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001532,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000949,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000315,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000359,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001336,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000523,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000426,Vague,Not a smell
+as_shipped,42,cv,1,augmented:000831,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000810,Task,Not a smell
+as_shipped,42,cv,1,augmented:000089,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000565,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:002059,Not a smell,Vague
+as_shipped,42,cv,1,augmented:000858,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000582,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001292,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000279,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001789,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001846,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000078,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000532,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000649,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001090,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000363,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000911,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000081,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000251,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001515,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002175,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000837,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000063,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000379,Obvious,Obvious
+as_shipped,42,cv,1,augmented:002022,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000467,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000361,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:002036,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:000080,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002191,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001345,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001371,Beautification,Beautification
+as_shipped,42,cv,1,augmented:001113,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000668,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001638,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000605,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000062,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001773,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001570,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001802,Task,Not a smell
+as_shipped,42,cv,1,augmented:001593,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:002064,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001030,Commented out code,Commented out code
+as_shipped,42,cv,1,augmented:001220,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001086,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001108,Task,Beautification
+as_shipped,42,cv,1,augmented:000589,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001230,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001135,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001687,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001836,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000801,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001912,Beautification,Beautification
+as_shipped,42,cv,1,augmented:000646,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000375,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000666,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001394,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000004,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001711,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001728,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002168,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000865,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001367,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002200,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001966,Beautification,Beautification
+as_shipped,42,cv,1,augmented:000183,Commented out code,Not a smell
+as_shipped,42,cv,1,augmented:000524,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001927,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000972,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:000286,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000444,Obvious,Beautification
+as_shipped,42,cv,1,augmented:000232,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001072,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000650,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000163,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000889,Obvious,Obvious
+as_shipped,42,cv,1,augmented:000099,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001152,Task,Task
+as_shipped,42,cv,1,augmented:000054,Task,Not a smell
+as_shipped,42,cv,1,augmented:001138,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001275,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001188,Obvious,Beautification
+as_shipped,42,cv,1,augmented:001556,Obvious,Obvious
+as_shipped,42,cv,1,augmented:001484,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001170,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001266,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001782,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001611,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001431,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001878,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001654,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002024,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000659,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001666,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001592,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001888,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:000398,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002054,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001388,Not a smell,Obvious
+as_shipped,42,cv,1,augmented:001522,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001980,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:002068,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:000988,Obvious,Not a smell
+as_shipped,42,cv,1,augmented:001661,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001111,Not a smell,Not a smell
+as_shipped,42,cv,1,augmented:001315,Task,Not a smell

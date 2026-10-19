@@ -1,0 +1,25 @@
+{
+  "source_total": 2448,
+  "eligible_total": 1179,
+  "selected_total": 50,
+  "exclusions": {
+    "not_java": 1269
+  },
+  "selected_label_counts": {
+    "Task": 7,
+    "Not a smell": 16,
+    "Beautification": 3,
+    "Obvious": 22,
+    "Commented out code": 1,
+    "Vague": 1
+  },
+  "selected_project_counts": {
+    "anki-android": 50
+  },
+  "selected_file_counts": {
+    "/AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java": 50
+  },
+  "selected_repeated_text_occurrences_after_first": 3,
+  "selected_comment_line_mismatches": [],
+  "original_revision": "Not supplied; source snapshots are content-hashed, not claimed to be current code"
+}

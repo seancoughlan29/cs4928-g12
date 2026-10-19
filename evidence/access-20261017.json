@@ -1,0 +1,177 @@
+{
+  "access_date": "2026-10-17",
+  "group_repository": {
+    "url": "https://github.com/seancoughlan29/cs4928-g12",
+    "accessible": true,
+    "private": false,
+    "default_branch": "main",
+    "head": "54880a2294321635a1eaf834cc5877a3ca90786c",
+    "verified_m1_tag_commit": "54880a2294321635a1eaf834cc5877a3ca90786c",
+    "previous_20261015_access": "404; see preserved provenance.json",
+    "coordinator_status": "User reports tracker was read; amendment approval not recorded"
+  },
+  "current_code": {
+    "repository": "https://github.com/ankidroid/Anki-Android",
+    "pinned_head": "311111b4f8a9a8f33494ab23bf13c95d64417a5c",
+    "commit_time": "2026-10-17T12:32:35Z",
+    "old_path": "AnkiDroid/src/main/java/com/ichi2/anki/Preferences.java",
+    "old_path_response": "404 Not Found at pinned revision",
+    "directory": "AnkiDroid/src/main/java/com/ichi2/anki/preferences",
+    "entries": [
+      {
+        "name": "AboutFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/AboutFragment.kt",
+        "sha": "7cc4db78291875822ff8def97dbda320192afa47",
+        "type": "file"
+      },
+      {
+        "name": "AccessibilitySettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/AccessibilitySettingsFragment.kt",
+        "sha": "10c94ea30cd67e82915bfc466a7ed2348cd144cd",
+        "type": "file"
+      },
+      {
+        "name": "AdvancedSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/AdvancedSettingsFragment.kt",
+        "sha": "830214ad5b650b5ac6c521b407a93f32f87a932b",
+        "type": "file"
+      },
+      {
+        "name": "AppearanceSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/AppearanceSettingsFragment.kt",
+        "sha": "b737c620a86a6ea06f5217fb2ffc8ccd4c6d14d0",
+        "type": "file"
+      },
+      {
+        "name": "BackupLimitsSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/BackupLimitsSettingsFragment.kt",
+        "sha": "9c47bdb4db4d354f5c38137e4870b64265b467b0",
+        "type": "file"
+      },
+      {
+        "name": "ControlsSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/ControlsSettingsFragment.kt",
+        "sha": "57274fa25d31ad416f2914dd116aad5cecfbdb0a",
+        "type": "file"
+      },
+      {
+        "name": "ControlsTabPreference.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/ControlsTabPreference.kt",
+        "sha": "7fb99a2dcc1bd7b9fe687a1fc91d8b6370a6fb80",
+        "type": "file"
+      },
+      {
+        "name": "CustomButtonsSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/CustomButtonsSettingsFragment.kt",
+        "sha": "529295ece88861dead5820cd163a744b7a600988",
+        "type": "file"
+      },
+      {
+        "name": "CustomSyncServerSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/CustomSyncServerSettingsFragment.kt",
+        "sha": "4c6c3da7cd1f01d77a6dd0ddb2fb4149f93d495f",
+        "type": "file"
+      },
+      {
+        "name": "DeveloperOptionsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/DeveloperOptionsFragment.kt",
+        "sha": "c879fc2a451723415ac4064f94b9e5e07bf062f6",
+        "type": "file"
+      },
+      {
+        "name": "ExtendedPreferenceCategory.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/ExtendedPreferenceCategory.kt",
+        "sha": "7429fd6dc0856d274a81b7f8747607793b28429c",
+        "type": "file"
+      },
+      {
+        "name": "GeneralSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/GeneralSettingsFragment.kt",
+        "sha": "9626e8c022a00f681f82e8023af4b5b30fb9fae0",
+        "type": "file"
+      },
+      {
+        "name": "HeaderFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/HeaderFragment.kt",
+        "sha": "2863e31edd7f85792ca09cd46abffebda00dc630",
+        "type": "file"
+      },
+      {
+        "name": "NotificationsSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/NotificationsSettingsFragment.kt",
+        "sha": "0fa56bebdcbe1a992dde287b99d3934d84f7f4db",
+        "type": "file"
+      },
+      {
+        "name": "PreferenceUtils.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/PreferenceUtils.kt",
+        "sha": "acf53c39085a75f55b6a330df7f14776fc309c42",
+        "type": "file"
+      },
+      {
+        "name": "Preferences.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/Preferences.kt",
+        "sha": "8fb8165f8656dc20b5caa81be8449ca34c943010",
+        "type": "file"
+      },
+      {
+        "name": "PreferencesDestination.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/PreferencesDestination.kt",
+        "sha": "7c133ff7c7dcf419805bc9ffb1153cfae3c36474",
+        "type": "file"
+      },
+      {
+        "name": "ReviewerOptionsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/ReviewerOptionsFragment.kt",
+        "sha": "8680a54f498bf8d54be26fa12a843251c3cf7a89",
+        "type": "file"
+      },
+      {
+        "name": "ReviewingSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/ReviewingSettingsFragment.kt",
+        "sha": "99d011d9333e168d32691d15c30ddc020befa13d",
+        "type": "file"
+      },
+      {
+        "name": "SettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/SettingsFragment.kt",
+        "sha": "e9da4fd0f24255db7ca569af14467adb28a114db",
+        "type": "file"
+      },
+      {
+        "name": "SharedPreferencesProvider.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/SharedPreferencesProvider.kt",
+        "sha": "d445760f6cf818854b65efbc9379afe46f73793a",
+        "type": "file"
+      },
+      {
+        "name": "SyncSettingsFragment.kt",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/SyncSettingsFragment.kt",
+        "sha": "064b17805c67765d7031e8e793b13fc237a53ca3",
+        "type": "file"
+      },
+      {
+        "name": "profiles",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/profiles",
+        "sha": "2e1cb58530eb8315e775a74af4433f8aa7a182cb",
+        "type": "dir"
+      },
+      {
+        "name": "reviewer",
+        "path": "AnkiDroid/src/main/java/com/ichi2/anki/preferences/reviewer",
+        "sha": "bc83df3ccf33ecac0dcb5119a61cae7a30b19f64",
+        "type": "dir"
+      }
+    ],
+    "per_case_mapping": "NOT_PERFORMED",
+    "build_and_tests": "NOT_RUN"
+  },
+  "ase_repair_package": {
+    "url": "https://figshare.com/s/b71935b0c12dd3330251",
+    "checked_date": "2026-10-15",
+    "result": "Web retrieval failed; direct HTTPS request returned 403",
+    "contents_obtained": false
+  },
+  "experimental_model_calls": 0,
+  "event_material_used": false
+}

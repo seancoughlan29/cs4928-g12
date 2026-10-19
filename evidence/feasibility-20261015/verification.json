@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "scope": "feasibility",
+  "metric_records_recomputed": 2,
+  "individual_predictions_checked": 351,
+  "reproduction_claim": "NONE: feasibility only"
+}

@@ -1,0 +1,33 @@
+{
+  "protocol_version": "2026-10-15-draft-1",
+  "status": "Proposed execution details; coordinator READY status and group agreement are unconfirmed",
+  "dataset": "original_artefact/augmented_dataset.json",
+  "dataset_sha256": "c571d1e3afdeac0e126d1bde6c476003797579996463332d3b167c4347dd2f68",
+  "model": "RandomForestClassifier",
+  "model_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51
+  ],
+  "split_seed": 42,
+  "cv_seed": 11,
+  "smote_seed": 11,
+  "test_size": 0.2,
+  "n_splits": 10,
+  "class_frequency_threshold": 30,
+  "random_forest_n_estimators": 100,
+  "reference_accuracy": 0.69,
+  "reference_mcc": 0.44,
+  "tolerance": 0.03,
+  "baseline_decision": "Both arithmetic means across ten seed-level CV means must be inside the inclusive reference bands",
+  "paper_informed_decision": "Primary: mean held-out MCC inside the inclusive 0.41 to 0.47 band, as specified in the repository M1 plan; CV results are reported separately",
+  "seed_interpretation": "Vary only Random Forest randomness; hold data split, CV partitions and SMOTE seed fixed. This measures model-randomness sensitivity, not split-to-split uncertainty.",
+  "text_interpretation": "Use the notebook's effective comment-plus-code text in both arms. Paper wording is ambiguous; do not claim an exact reconstruction of the authors' intended pipeline."
+}
