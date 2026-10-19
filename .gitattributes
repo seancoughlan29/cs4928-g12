@@ -1,0 +1,12 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv -text
+*.png -text
+*.zip -text
+# Frozen input hashes must survive Windows checkouts without newline conversion.
+data/** -text
+# Preserve the supplied artefact byte-for-byte, including UTF-16 requirements.
+original_artefact/** -text
