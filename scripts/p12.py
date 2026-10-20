@@ -130,6 +130,9 @@ def prepare(output):
         "inputs_frozen_at": None, "tracker_recorded_at": None,
         "started_at": None, "completed_at": None,
         "scope_agreement_reference": None,
+        "interpretation_plan_reference": None,
+        "interpretation_plan_recorded_at": None,
+        "checkpoint_status": None,
         "independent_fresh_conversations": None,
         "reference_labels_withheld": None,
         "batches": [{**b, "started_at": None, "completed_at": None, "model": None, "attempts": 0} for b in batches],
@@ -192,6 +195,10 @@ def timestamp(value):
 
 
 def score(prepared, responses, output):
+    # The 17 October frozen inputs stay unchanged. This separately versioned
+    # reporting correction retires the old constant-baseline success verdict.
+    reporting_path = ROOT / "config/p12_reporting_20261020.json"
+    reporting = json.loads(reporting_path.read_text(encoding="utf-8"))
     freeze = json.loads((prepared / "freeze.json").read_text(encoding="utf-8"))
     for name, expected in freeze["generated_files"].items():
         if digest(prepared / name) != expected:
@@ -200,7 +207,7 @@ def score(prepared, responses, output):
     batches = json.loads((prepared / "batches.json").read_text(encoding="utf-8"))
     record_path = responses / "run_record.json"
     record = json.loads(record_path.read_text(encoding="utf-8"))
-    for field in ["operator", "provider", "model", "interface", "scope_agreement_reference"]:
+    for field in ["operator", "provider", "model", "interface", "scope_agreement_reference", "interpretation_plan_reference", "checkpoint_status"]:
         if not isinstance(record.get(field), str) or not record[field].strip():
             raise ValueError(f"Complete run_record.json truthfully: missing {field}")
     if record.get("status") != "COMPLETED" or record.get("reference_labels_withheld") is not True or record.get("independent_fresh_conversations") is not True:
@@ -208,6 +215,8 @@ def score(prepared, responses, output):
     frozen, tracker, start, end = [timestamp(record[k]) for k in ["inputs_frozen_at", "tracker_recorded_at", "started_at", "completed_at"]]
     if not (frozen <= start <= end and tracker <= start):
         raise ValueError("Inputs and tracker entry must precede inference; never backdate records")
+    if timestamp(record["interpretation_plan_recorded_at"]) > start:
+        raise ValueError("The interpretation plan was recorded after inference; retain the outputs and document a post-output analysis instead of claiming preregistration")
     recorded_batches = record.get("batches", [])
     if len(recorded_batches) != len(batches) or {b["batch_id"] for b in recorded_batches} != {b["batch_id"] for b in batches}:
         raise ValueError("Run record must describe every batch exactly once")
@@ -250,27 +259,59 @@ def score(prepared, responses, output):
     prediction = [r["scored_label"] for r in joined]
     result = metrics(truth, prediction, labels)
     baseline = metrics(truth, ["Not a smell"] * len(truth), labels)
+    counts = collections.Counter(truth)
+    majority_label = max(labels, key=lambda label: counts[label])
+    majority = metrics(truth, [majority_label] * len(truth), labels)
     invalid_count = prediction.count(INVALID)
-    check = "INCONCLUSIVE_INVALID_OUTPUT" if invalid_count else "SUPPORTED" if result["macro_f1_fixed_labels"] > baseline["macro_f1_fixed_labels"] else "NOT_SUPPORTED"
     candidates = [r for r in joined if r["scored_label"] not in {"Not a smell", INVALID}][:10]
     new_directory(output)
     columns = ["case_id", "project", "file_path", "line_start", "line_end", "reference_label", "predicted_label", "scored_label", "correct", "context_sufficient", "reason"]
     write_csv(output / "predictions.csv", joined, columns)
     write_csv(output / "errors.csv", [r for r in joined if not r["correct"]], columns)
     write_csv(output / "class_metrics.csv", result["per_class"], list(result["per_class"][0]))
+    published_by_label = {r["label"]: r for r in reporting["published_class_metrics"]}
+    comparison = []
+    for row in result["per_class"]:
+        source = published_by_label.get(row["label"])
+        if source is None:
+            continue
+        comparison.append({
+            "label": row["label"], "our_support": row["support"],
+            "our_precision": row["precision"],
+            "our_recall": row["recall"] if row["support"] else "NOT_ESTIMABLE",
+            "our_f1_zero_convention": row["f1"],
+            "paper_support": source["support"], "paper_precision": source["precision"],
+            "paper_recall": source["recall"], "paper_f1": source["f1"],
+            "f1_difference_descriptive_only": row["f1"]-source["f1"] if row["support"] else "NOT_ESTIMABLE",
+            "source": "Caglar et al. ASE 2025 Table II; selected best o3-mini few-shot run",
+            "comparability": "Different sample/model/prompt; no numerical-equivalence conclusion",
+        })
+    if comparison:
+        write_csv(output / "paper_class_comparison.csv", comparison, list(comparison[0]))
+    write_csv(output / "published_configuration_references.csv", reporting["published_configurations"], list(reporting["published_configurations"][0]))
     matrix_rows = [{"actual_label": a, **result["confusion_matrix"][a]} for a in result["matrix_labels"]]
     write_csv(output / "confusion_matrix.csv", matrix_rows, ["actual_label"] + result["matrix_labels"])
     repair_fields = ["case_id", "project", "file_path", "line_start", "line_end", "reference_label", "predicted_label", "current_revision", "current_path", "mapping_status", "reviewer", "confirmed_smell", "no_change_option", "comment_only_option", "refactor_option", "chosen_action", "design_pressure", "comment_correctness", "verification_before", "verification_after", "behaviour_preserved", "notes"]
     write_csv(output / "repair_candidates.csv", [{**r, "mapping_status": "UNREVIEWED"} for r in candidates], repair_fields)
     dump(output / "summary.json", {
         "execution_status": "SCORED_SAVED_RESPONSES", "model": record["model"],
-        "bounded_capability_check": check, "paper_numerical_reproduction": "INCONCLUSIVE_DIFFERENT_DATA_MODEL_SCOPE",
+        "reporting_version": reporting["version"],
+        "response_validity": "INVALID_LABELS_PRESENT" if invalid_count else "ALL_LABELS_VALID",
+        "paper_numerical_reproduction": "INCONCLUSIVE_DIFFERENT_DATA_MODEL_SCOPE",
+        "course_m2_acceptance": "NOT_DETERMINED_BY_SCORER",
+        "checkpoint_status_as_recorded": record["checkpoint_status"],
+        "interpretation_plan_reference": record["interpretation_plan_reference"],
+        "source_anchors": reporting["source_anchors"],
         "metrics": result, "always_not_a_smell_baseline": baseline,
+        "constant_sample_majority_baseline": {"label": majority_label, "metrics": majority},
+        "baseline_interpretation": reporting["baseline_policy"],
+        "macro_f1_fixed_label_ceiling_on_this_sample": len(counts)/len(labels),
+        "published_comparison_note": reporting["published_reference_note"],
         "invalid_outputs": invalid_count, "context_insufficient": sum(not r["context_sufficient"] for r in joined),
         "repair_candidates": [r["case_id"] for r in candidates], "repair_shortfall": 10-len(candidates),
         "repairs_validated": 0, "limitations": ["Single-file stable-order sample", "One model run in batches", "Historical source revision unknown", "Current-source mapping required before repairs", "Zero-support class recall not estimable"],
     })
-    dump(output / "provenance.json", {"scored_at": datetime.now(timezone.utc).isoformat(), "freeze_sha256": digest(prepared / "freeze.json"), "run_record_sha256": digest(record_path), "raw_response_sha256": raw_hashes, "scoring_script_sha256": digest(__file__), "python": sys.version, "command": sys.argv})
+    dump(output / "provenance.json", {"scored_at": datetime.now(timezone.utc).isoformat(), "freeze_sha256": digest(prepared / "freeze.json"), "run_record_sha256": digest(record_path), "raw_response_sha256": raw_hashes, "scoring_script_sha256": digest(__file__), "reporting_config_sha256": digest(reporting_path), "python": sys.version, "command": sys.argv})
     print(f"Scored {len(joined)} recorded responses; {len(candidates)} repair candidates, none yet validated.")
 
 

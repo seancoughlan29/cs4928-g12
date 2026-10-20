@@ -1,6 +1,8 @@
 # What is complete and what remains
 
-Status on 17 October 2026. These are work states, not predicted marks.
+Updated 20 October 2026. These are work states, not predicted marks. No batches
+have been sent according to Dylan's confirmation. Use the 20 October correction
+and next-steps guide. No M2 completion is claimed.
 
 | Rubric area | Prepared evidence | Work still required |
 |---|---|---|
@@ -12,8 +14,10 @@ Status on 17 October 2026. These are work states, not predicted marks.
 | AI judgement (5) | Material AI log, including correction of the earlier RF direction | Team verification and actual accept/modify/reject decisions on repair suggestions |
 | Final synthesis (5) | Limitations and source distinctions identified | Evidence-supported RQ answers, final report and submission after results/events |
 
-The next practical step is to select and record the model, agree/enter the
-amendment, and obtain the five raw response batches. No paid API is required by
+The next practical step is to upload the correction, update G16/H16/I16/J16,
+and record the actual comparison/checkpoint decision before the five batches.
+Begin repair review immediately after detection and confirm its M2 timing.
+No paid API is required by
 the manual route. Missing current-source mappings are a real repair risk that
 must be resolved or documented through the module contingency.
 

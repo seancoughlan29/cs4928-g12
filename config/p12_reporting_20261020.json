@@ -1,0 +1,123 @@
+{
+  "version": "2026-10-20-reporting-correction",
+  "status": "Prepared before inference; course comparison and checkpoint response remain to be recorded",
+  "supersedes": "Only the baseline-success interpretation and readiness advice in the 17 October protocol. Frozen inputs and original M1 are preserved.",
+  "source_doi": "10.1109/ASE63991.2025.00088",
+  "source_url": "https://www.researchgate.net/publication/395359325_Automated_Inline_Comment_Smell_Detection_and_Repair_with_Large_Language_Models",
+  "source_anchors": [
+    "III-D prompt design",
+    "III-E detection evaluation",
+    "IV RQ1 and Table II class-wise errors",
+    "Table IV repeated-run model/prompt metrics"
+  ],
+  "baseline_policy": "Descriptive sanity checks only; neither baseline produces a reproduction/success verdict.",
+  "constant_majority_policy": "Choose the most frequent frozen reference label before model inference; ties use the frozen label order. This is an in-sample diagnostic, not a learned classifier.",
+  "numerical_comparability": "Different model, dataset, sample, context, prompt and repetition count. Report INCONCLUSIVE_DIFFERENT_DATA_MODEL_SCOPE, not a result-based equivalence claim.",
+  "course_decision": "Needs the actual coordinator/checkpoint record; the scorer cannot assign an M2 acceptance outcome.",
+  "published_reference_note": "Table II is the selected best o3-mini few-shot run. Table IV rows below are medians across five full runs. Numeric differences are descriptive only.",
+  "published_configurations": [
+    {
+      "model": "GPT-4o-mini",
+      "prompt": "zero-shot",
+      "n": 2211,
+      "aggregation": "median of five full runs",
+      "table": "IV",
+      "accuracy": 0.53,
+      "macro_f1": 0.2,
+      "mcc": 0.25
+    },
+    {
+      "model": "o3-mini",
+      "prompt": "zero-shot",
+      "n": 2211,
+      "aggregation": "median of five full runs",
+      "table": "IV",
+      "accuracy": 0.72,
+      "macro_f1": 0.32,
+      "mcc": 0.51
+    },
+    {
+      "model": "o3-mini",
+      "prompt": "few-shot",
+      "n": 2211,
+      "aggregation": "median of five full runs",
+      "table": "IV",
+      "accuracy": 0.72,
+      "macro_f1": 0.41,
+      "mcc": 0.5
+    }
+  ],
+  "published_class_metrics": [
+    {
+      "label": "Beautification",
+      "precision": 0.76,
+      "recall": 0.68,
+      "f1": 0.72,
+      "support": 50
+    },
+    {
+      "label": "Commented out code",
+      "precision": 0.91,
+      "recall": 0.89,
+      "f1": 0.9,
+      "support": 35
+    },
+    {
+      "label": "Irrelevant",
+      "precision": 0.38,
+      "recall": 0.75,
+      "f1": 0.5,
+      "support": 4
+    },
+    {
+      "label": "Misleading",
+      "precision": 0.44,
+      "recall": 0.44,
+      "f1": 0.44,
+      "support": 16
+    },
+    {
+      "label": "Nonlocal info",
+      "precision": 0,
+      "recall": 0,
+      "f1": 0,
+      "support": 4
+    },
+    {
+      "label": "Not a smell",
+      "precision": 0.74,
+      "recall": 0.84,
+      "f1": 0.79,
+      "support": 1249
+    },
+    {
+      "label": "Obvious",
+      "precision": 0.69,
+      "recall": 0.55,
+      "f1": 0.61,
+      "support": 675
+    },
+    {
+      "label": "Task",
+      "precision": 0.87,
+      "recall": 0.65,
+      "f1": 0.74,
+      "support": 121
+    },
+    {
+      "label": "Too much info",
+      "precision": 1,
+      "recall": 0.14,
+      "f1": 0.25,
+      "support": 7
+    },
+    {
+      "label": "Vague",
+      "precision": 0.21,
+      "recall": 0.26,
+      "f1": 0.23,
+      "support": 50
+    }
+  ],
+  "label_mapping_note": "Paper Non-local -> Nonlocal info; Too Much Information -> Too much info; case and hyphenation normalized explicitly. No reference labels changed."
+}

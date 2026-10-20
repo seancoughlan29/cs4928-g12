@@ -1,0 +1,15 @@
+{
+  "evidence_type": "User statements in the planning conversation, not model execution evidence",
+  "tracker_update_reported_complete_at": "2026-10-19T16:02:39+01:00",
+  "tracker_update_reporter": "Dylan Perry",
+  "tracker_timestamp_basis": "Time of the user's completion report; not an independently retrieved workbook save timestamp",
+  "model_choice_reported_at": "2026-10-19T16:06:17+01:00",
+  "planned_provider": "Anthropic",
+  "planned_model": "Claude Opus 5.5",
+  "planned_operator": "User's friend; name not yet provided",
+  "not_started_reported_at": "2026-10-19T16:10:05+01:00",
+  "not_started_statement": "he has done nothing he is waiting for u to walk him thriugh it giving the copy and paste to everything .",
+  "coordinator_approval_of_amendment": "Not reported",
+  "actual_model_responses_received": 0,
+  "validated_repairs": 0
+}

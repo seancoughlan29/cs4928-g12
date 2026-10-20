@@ -1,0 +1,61 @@
+{
+  "recorded_at": "2026-10-20T11:00:23.970021+00:00",
+  "purpose": "Pre-inference method correction; not experiment results or coordinator approval",
+  "user_execution_status": {
+    "event_date": "2026-10-20",
+    "source": "Direct answer to batch-status question in this conversation",
+    "report": "No batches sent",
+    "independently_inspected_all_accounts": false
+  },
+  "course_checkpoint": {
+    "status": "UNCONFIRMED",
+    "comparison_rule": "AWAITING_CHECKPOINT",
+    "repair_m2_timing": "AWAITING_CHECKPOINT"
+  },
+  "tracker_audit": {
+    "file": "Student Tracker (3).xlsx supplied 20 October 2026",
+    "sheet": "RQs and Milestones",
+    "row": 16,
+    "changed": [
+      "C16",
+      "D16",
+      "F16",
+      "G16"
+    ],
+    "remaining": [
+      "H16 contains original RF expectation",
+      "J16 blank"
+    ],
+    "prepared_updates": [
+      "G16",
+      "H16",
+      "I16",
+      "J16"
+    ],
+    "assistant_entered_shared_workbook": false
+  },
+  "history": {
+    "original_m1": "54880a2294321635a1eaf834cc5877a3ca90786c",
+    "amendment_prepared": "2026-10-17",
+    "public_upload": "2026-10-19",
+    "correction": "2026-10-20",
+    "public_base": "1c14b4c8848ecb25d4c01aec1dbbf79fae35252d"
+  },
+  "verification": {
+    "command": "python3 -m unittest discover -s tests -p test_p12.py -v",
+    "exit_code": 0,
+    "tests": 6,
+    "fixture_type": "synthetic; no LLM inference",
+    "test_output": "test_actual_preparation_is_label_free_and_source_recoverable (test_p12.P12Tests.test_actual_preparation_is_label_free_and_source_recoverable) ... ok\ntest_duplicate_ids_and_missing_batches_are_not_dropped (test_p12.P12Tests.test_duplicate_ids_and_missing_batches_are_not_dropped) ... ok\ntest_metrics_known_matrix_including_invalid_output (test_p12.P12Tests.test_metrics_known_matrix_including_invalid_output) ... ok\ntest_occurrence_ids_precede_filtering_and_keep_duplicate_text (test_p12.P12Tests.test_occurrence_ids_precede_filtering_and_keep_duplicate_text) ... ok\ntest_perfect_scores_do_not_claim_replication_and_post_output_plan_is_rejected (test_p12.P12Tests.test_perfect_scores_do_not_claim_replication_and_post_output_plan_is_rejected) ... ok\ntest_saved_response_scoring_and_no_repair_success_claim (test_p12.P12Tests.test_saved_response_scoring_and_no_repair_success_claim) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.597s\n\nOK\n",
+    "recorded_at": "2026-10-20T11:00:23.970021+00:00",
+    "frozen_files_checked": 14,
+    "changed_frozen_files": [],
+    "protected_files_diff": "No changes to M1_PLAN.md, original_artefact/, data/p12_v1/, prompts/, config/p12_llm_protocol.json or docs/P12_SCOPE_AMENDMENT.md relative to public base"
+  },
+  "access_limitations": {
+    "ase_replication_package": "https://figshare.com/s/b71935b0c12dd3330251",
+    "status": "HTTP 403 on 20 October 2026 in this retrieval environment",
+    "contents_obtained": false
+  },
+  "remote_writes_performed": false
+}

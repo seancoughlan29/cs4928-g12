@@ -1,8 +1,15 @@
-# Start here — P12, 17 October 2026
+# Start here — P12, corrected 20 October 2026
 
 The assigned task is **50 fixed-prompt LLM classifications and 10 repair
-attempts validated against current code**. The corrected preparation is ready.
-No actual LLM classification, repair, Java test pass or M2 result is claimed.
+attempts validated against current code**. Dylan confirmed on 20 October that
+no batches had been sent. Preparation is available; the M2 comparison rule and
+checkpoint record need resolution before the main run.
+
+Follow [the current next steps](docs/NEXT_STEPS_20261020.md). The
+[20 October correction](docs/P12_CORRECTION_20261020.md) supersedes the earlier
+baseline-success rule and unconditional readiness advice. Use
+`docs/TRACKER_UPDATE_20261020.txt` for G16/H16/I16/J16 and
+`docs/P12_COORDINATOR_CHECK.md` for the two concrete checkpoint questions.
 
 ## What is ready
 
@@ -17,17 +24,20 @@ No actual LLM classification, repair, Java test pass or M2 result is claimed.
 
 ## Do these before the main run
 
-1. Review `docs/P12_SCOPE_AMENDMENT.md` with your team. It changes the RF plan
+1. Review `docs/P12_SCOPE_AMENDMENT.md` and `docs/P12_CORRECTION_20261020.md`
+   with your team. The dated amendment changes the RF plan
    to the supplied P12 task. Record the real scope agreement/checkpoint status.
    Your coordinator having read the earlier tracker is recorded accurately.
 2. Enter the agreed wording and exact sample link into the workbook using
-   `docs/TRACKER_PROPOSED_UPDATE.md`. Record when you entered it, before inference.
+   `docs/TRACKER_UPDATE_20261020.txt`. Record when you entered it, before inference.
+   Record the actual accepted source claim/comparison and checkpoint response.
 3. Choose one LLM you can access. Record its exact displayed model name,
    provider and interface. Keep the same model for all five packets. No paid
    API setup is required by the prepared manual route.
-4. Copy `data/p12_v1/run_record_template.json` into a new run directory as
-   `run_record.json`. Fill the known setup fields truthfully before starting;
-   fill each batch's timestamps and completion details as it actually runs.
+4. Fill the corrected operator pack's `RUN_LOG.txt` before starting. It includes
+   the new interpretation-plan reference/time and checkpoint fields. We can
+   convert the factual log to `run_record.json` after collection; the old frozen
+   JSON template alone does not contain the reporting-correction fields.
 
 The input files are already prepared in `data/p12_v1/`. Do not regenerate them
 to change case order or improve class balance. The first 50 happen to come
@@ -71,6 +81,8 @@ Keep raw responses and the run record. The scorer rejects altered frozen
 inputs, missing/duplicate IDs and incomplete provenance. Unknown label strings
 are counted as errors. It never declares any repair validated. Each scoring
 attempt needs a new output directory; earlier outputs are not overwritten.
+It now reports descriptive baselines and source comparisons, with no automatic
+SUPPORTED/REPRODUCED verdict. Course acceptance is not determined by the scorer.
 
 To independently rebuild the preparation for comparison, use a NEW directory:
 
@@ -78,12 +90,15 @@ To independently rebuild the preparation for comparison, use a NEW directory:
 py -3 scripts\p12.py prepare --output data\p12-rebuilt
 ```
 
-The prepared input bytes are deterministic. The freeze creation timestamp is
-expected to differ. Keep the original prepared files for the agreed run.
+The sample and prompt bytes are deterministic. The updated run-record template,
+script hash and freeze timestamp differ from the 17 October preparation. Keep
+the original prepared files for the agreed run; never replace their freeze.
 
 ## Repairs and work that remains
 
-The scorer selects up to ten cases into `repair_candidates.csv`. Use
+Start the ten-case review immediately after detection; confirm how much repair
+evidence is due at M2 instead of assuming it all belongs to M4. The scorer
+selects up to ten cases into `repair_candidates.csv`. Use
 `design/README.md` to compare no change, comment-only repair and refactoring.
 The historical `Preferences.java` path is absent from the checked current
 AnkiDroid revision; mapping to current code must precede any validated repair.

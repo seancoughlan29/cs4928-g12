@@ -1,5 +1,9 @@
 # Ten-case repair and evolution evidence
 
+20 October clarification: start this review immediately after valid detection.
+The P12 bounded task includes ten repair attempts. Do not assume all repair
+work can wait for M4; record the coordinator's M2/later-milestone division.
+
 No repair or passing Java test result is claimed yet. Use the first ten valid
 model-flagged cases selected by `scripts/p12.py score`, in frozen order. Keep
 false positives for a possible no-change decision. If fewer than ten are

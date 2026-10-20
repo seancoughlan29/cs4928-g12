@@ -36,3 +36,26 @@ that the coordinator had read the tracker, not that this amendment had been
 approved. The preparation script made no model calls. This planning conversation
 has seen labels and is not a blinded model session. Human reviews, experimental
 timestamps and future Event responses remain unfilled.
+
+## Operator handoff recorded on 20 October 2026
+
+| ID | Tool | Material contribution | Verification and status |
+|---|---|---|---|
+| A7 | ChatGPT/Codex | Packaged the five frozen prompts with a human operator guide and run log for the planned Claude Opus 5.5 run | All five prompt files match the frozen originals at commit `1c14b4c8848ecb25d4c01aec1dbbf79fae35252d`. The pack contains 50 distinct case IDs and no reference-answer files. User-reported tracker and planning timestamps are identified as reports, not independently retrieved workbook or experiment timestamps. No experimental model response has been collected. |
+
+The first returned batch will be checked for format and provenance only. Its
+predictions will be preserved; accuracy feedback will wait until all five
+batches have been collected. The operator must record actual settings and
+timestamps rather than treating the template as evidence of an executed run.
+
+## Audit correction recorded on 20 October 2026
+
+| ID | Tool | Material contribution | Verification and status |
+|---|---|---|---|
+| A8 | ChatGPT/Codex | Rejected its earlier readiness advice and constant-baseline success interpretation | Re-read P12, Lab 3/4, project brief/rubric, latest tracker and Week 5 report. The LLM direction matches P12, but the source comparison and checkpoint were unresolved; H16 remained RF and J16 was blank. Original M1 and frozen inputs preserved. |
+| A9 | ChatGPT/Codex | Prepared a reporting correction, descriptive paper comparisons, four tracker entries and checkpoint questions | Dylan explicitly confirmed no batches sent on 20 October. Tests use synthetic cases, not experimental results. Actual team acceptance, tracker entry, coordinator response, model runs and repairs still require evidence. |
+
+The assistant does not infer that the lecturer deliberately paired the earlier
+artefact with the later paper. Five batches are one pass, not five repetitions.
+The new report retires automatic SUPPORTED/REPRODUCED labels from baseline
+improvement. It does not invent a new tolerance or an approved M2 interpretation.

@@ -1,0 +1,76 @@
+; CS4928 G12/P12 - human operator log. Keep this outside the detection chats.
+; Replace every TO_FILL entry truthfully. Keep timestamps with timezone offsets.
+; The prefilled model/interface are the PLAN: confirm them against the screen.
+; Do not set COMPLETED or attempts=1 until those actions actually happen.
+
+[run]
+status = NOT_STARTED
+operator = TO_FILL_YOUR_NAME
+provider = Anthropic
+model = Claude Opus 5.5
+interface = Claude website - Incognito
+settings_recorded_at = TO_FILL_BEFORE_FIRST_REQUEST
+thinking_or_effort_setting = TO_FILL_EXACT_DISPLAYED_SETTING_OR_not_exposed
+temperature = not_exposed
+seed = not_exposed
+style = TO_FILL_ACTUAL_STYLE
+personal_instructions = TO_FILL_none_IF_DISABLED_OR_ABSENT
+setup_screenshot_files = TO_FILL_FILENAMES_IN_evidence
+reference_labels_withheld = TO_FILL_true_OR_false
+independent_fresh_conversations = TO_FILL_true_OR_false
+inputs_frozen_at = 2026-10-17T17:39:28.319144+00:00
+tracker_recorded_at = TO_FILL_ACTUAL_CORRECTED_TRACKER_UPDATE_TIMESTAMP
+tracker_timestamp_basis = Record the corrected G16/H16/I16/J16 entry time. The 19 October update was partial and is not evidence that this correction was recorded.
+scope_agreement_reference = TO_FILL_ACTUAL_TEAM_AGREEMENT_AND_CORRECTION_COMMIT
+interpretation_plan_reference = TO_FILL_SOURCE_COMPARISON_RULE_AND_CHECKPOINT_REFERENCE
+interpretation_plan_recorded_at = TO_FILL_ACTUAL_TIMESTAMP_BEFORE_INFERENCE
+checkpoint_status = TO_FILL_ACTUAL_STATUS_AND_RESPONSE_REFERENCE
+operator_scope_agreement = TO_FILL_ACTUAL_AGREEMENT_OR_CHECKPOINT_STATUS
+started_at = TO_FILL_WHEN_BATCH_01_IS_SENT
+completed_at = TO_FILL_AFTER_BATCH_05_FINISHES
+deviations = TO_FILL_none_OR_FACTUAL_DESCRIPTION
+
+[batch_01]
+response_file = batch_01.txt
+model = Claude Opus 5.5
+attempts = 0
+started_at = TO_FILL_ACTUAL_START_TIMESTAMP
+completed_at = TO_FILL_ACTUAL_END_TIMESTAMP
+tools_observed = TO_FILL_none_OR_LIST
+notes = TO_FILL_none_OR_FACTUAL_DESCRIPTION
+
+[batch_02]
+response_file = batch_02.txt
+model = Claude Opus 5.5
+attempts = 0
+started_at = TO_FILL_ACTUAL_START_TIMESTAMP
+completed_at = TO_FILL_ACTUAL_END_TIMESTAMP
+tools_observed = TO_FILL_none_OR_LIST
+notes = TO_FILL_none_OR_FACTUAL_DESCRIPTION
+
+[batch_03]
+response_file = batch_03.txt
+model = Claude Opus 5.5
+attempts = 0
+started_at = TO_FILL_ACTUAL_START_TIMESTAMP
+completed_at = TO_FILL_ACTUAL_END_TIMESTAMP
+tools_observed = TO_FILL_none_OR_LIST
+notes = TO_FILL_none_OR_FACTUAL_DESCRIPTION
+
+[batch_04]
+response_file = batch_04.txt
+model = Claude Opus 5.5
+attempts = 0
+started_at = TO_FILL_ACTUAL_START_TIMESTAMP
+completed_at = TO_FILL_ACTUAL_END_TIMESTAMP
+tools_observed = TO_FILL_none_OR_LIST
+notes = TO_FILL_none_OR_FACTUAL_DESCRIPTION
+
+[batch_05]
+response_file = batch_05.txt
+model = Claude Opus 5.5
+attempts = 0
+started_at = TO_FILL_ACTUAL_START_TIMESTAMP
+completed_at = TO_FILL_ACTUAL_END_TIMESTAMP
+tools_observed = TO_FILL_none_OR_LIST
+notes = TO_FILL_none_OR_FACTUAL_DESCRIPTION

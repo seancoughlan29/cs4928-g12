@@ -29,3 +29,15 @@ execution history have not been independently verified or backdated here.
 D5 is resolved at the level of the assignment's instructions. The amended
 method still needs a real team/workbook checkpoint record. D3/D4 are retained
 RF proposals, now supplementary rather than the P12 main experiment.
+
+## Interpretation correction recorded on 20 October 2026
+
+| ID | Change | Reason and evidence |
+|---|---|---|
+| D11 | Retire the constant-baseline success criterion | It is not a reproduction criterion for an identified paper result. Preserve the old protocol and freeze; new reporting configuration and P12_CORRECTION_20261020.md explain the correction. |
+| D12 | Add descriptive paper reference tables and a constant sample-majority diagnostic | Clarify source/model/prompt/aggregation differences. No metric or baseline can automatically award reproduction or M2 acceptance. |
+| D13 | Replace incomplete tracker/readiness instructions | The uploaded tracker retained RF expectations in H16 and had blank J16. The actual corrected entry time and interpretation-plan record must precede inference. |
+
+Dylan confirmed no detection batches had been sent before this correction.
+This statement records the user's report, not independent inspection of private
+accounts. The 17 October amendment and original M1 remain historical records.

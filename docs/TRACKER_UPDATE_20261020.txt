@@ -1,0 +1,26 @@
+G12/P12 — exact tracker updates prepared 20 October 2026
+
+Sheet: RQs and Milestones
+Only edit row 16 for G12. Keep C16, D16 and F16 as currently entered.
+The old RF wording/prediction is preserved in M1_PLAN and the Week 5 record.
+Upload the repository correction before using the J16 links below.
+
+G16 — Method / metric or decision rule
+RQ1: First 50 frozen Java comment occurrences, one recorded current LLM and adapted fixed prompt, five fresh batches of ten (one pass, not five repetitions), with reference labels withheld. Report accuracy, MCC, ten-label and supported-class macro F1, class-wise errors and confusion matrices. Compare descriptively with the assigned ASE paper III-D/E and Tables II/IV, stating model, sample, prompt and repetition differences. Constant-label baselines are sanity checks, not reproduction criteria. The exact M2 comparison/decision rule is awaiting the coordinator checkpoint; no numerical reproduction is claimed. RQ2: Review the first ten valid model-flagged cases against pinned current code, compare no change/comment-only repair/refactoring, retain false positives and mapping failures, and record actual proposals and before/after verification. Begin repair review after detection; confirm M2 versus later-milestone requirements.
+
+H16 — Expected result before execution
+20 October amendment, before inference: class-wise performance is expected to be uneven, with both false positives and false negatives possible. Most justified interventions are expected to require comment-only changes; refactoring requires a demonstrated code-design problem. No numerical match, refactoring quota or direction of evolution effect is assumed. This replaces the active expectation; the original RF prediction remains preserved in M1_PLAN and the Week 5 record.
+
+I16 — Reproduction result (brief)
+PREPARATION / CHECKPOINT PENDING — On 20 October, the group representative confirmed no LLM batches had been sent. The frozen sample and prompts are prepared. The interpretation rule is being corrected and the M2 comparison/repair scope needs checkpoint clarification. No LLM detection performance or validated repair is claimed.
+
+J16 — Evidence link / commit / output
+Original M1: https://github.com/seancoughlan29/cs4928-g12/tree/M1_PLAN
+Dated correction: https://github.com/seancoughlan29/cs4928-g12/blob/main/docs/P12_CORRECTION_20261020.md
+Exact sample IDs: https://github.com/seancoughlan29/cs4928-g12/blob/main/data/p12_v1/sample_manifest.csv
+Scoring/reporting correction: https://github.com/seancoughlan29/cs4928-g12/blob/main/config/p12_reporting_20261020.json
+
+After upload, add the actual GitHub commit URL to J16. Do not invent its SHA.
+Record the actual time these cells are updated in the new run log.
+G16 must be completed with the agreed source claim and rule before the main run.
+Do not enter REPRODUCED or use future results as an earlier prediction.

@@ -2,6 +2,13 @@
 
 Checked 15–17 October 2026. The user-supplied project pack controls the task.
 
+20 October clarification: IV/Table II describes a selected best o3-mini
+few-shot output (macro F1 0.47); Table IV reports five-run configurations
+(o3-mini few-shot median macro F1 0.41). Do not mix those aggregations. The
+corrected scorer emits source-labelled descriptive comparison tables; it does
+not treat them as numerical equivalence or a course acceptance decision. See
+P12_CORRECTION_20261020.md and config/p12_reporting_20261020.json.
+
 | Source | Role and precise anchor |
 |---|---|
 | Çağlar et al., [assigned ASE paper](https://doi.org/10.1109/ASE63991.2025.00088) | Section III-D: fixed detection/repair prompts; III-E: evaluation; IV RQ1 and Table II: detection and class-wise errors; III-B and IV RQ2: repair. |

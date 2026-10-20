@@ -61,6 +61,9 @@ class P12Tests(unittest.TestCase):
         p12.dump(prepared / "freeze.json", {"generated_files": {str(p.relative_to(prepared)): p12.digest(p) for p in prepared.rglob("*") if p.is_file()}})
         p12.dump(responses / "run_record.json", {"status": "COMPLETED", "operator": "SYNTHETIC_TEST", "provider": "SYNTHETIC_TEST", "model": "NO_REAL_MODEL", "interface": "fixture", "scope_agreement_reference": "test fixture only", "reference_labels_withheld": True, "independent_fresh_conversations": True, "inputs_frozen_at": "2000-01-01T00:00:00Z", "tracker_recorded_at": "2000-01-01T00:00:00Z", "started_at": "2000-01-01T01:00:00Z", "completed_at": "2000-01-01T02:00:00Z", "batches": [{"batch_id": "batch_01", "model": "NO_REAL_MODEL", "attempts": 1, "started_at": "2000-01-01T01:00:00Z", "completed_at": "2000-01-01T02:00:00Z"}]})
         p12.dump(responses / "batch_01.txt", [{"case_id": ids[0], "predicted_label": "Task", "context_sufficient": True, "reason": "Synthetic test."}, {"case_id": ids[1], "predicted_label": "unsupported string", "context_sufficient": False, "reason": "Synthetic invalid-output test."}])
+        record = json.loads((responses / "run_record.json").read_text())
+        record.update({"interpretation_plan_reference": "SYNTHETIC fixture; not a course decision", "interpretation_plan_recorded_at": "2000-01-01T00:00:00Z", "checkpoint_status": "SYNTHETIC_TEST_ONLY"})
+        p12.dump(responses / "run_record.json", record)
         return prepared, responses
 
     def test_saved_response_scoring_and_no_repair_success_claim(self):
@@ -71,13 +74,38 @@ class P12Tests(unittest.TestCase):
                 p12.score(prepared, responses, root / "result")
             summary = json.loads((root / "result/summary.json").read_text())
             self.assertEqual(summary["invalid_outputs"], 1)
-            self.assertEqual(summary["bounded_capability_check"], "INCONCLUSIVE_INVALID_OUTPUT")
+            self.assertEqual(summary["response_validity"], "INVALID_LABELS_PRESENT")
+            self.assertNotIn("bounded_capability_check", summary)
             self.assertEqual(summary["repair_candidates"], ["synthetic:1"])
             self.assertEqual(summary["repairs_validated"], 0)
             self.assertEqual(summary["repair_shortfall"], 9)
             (prepared / "reference_only/labels.csv").write_text("tampered")
             with self.assertRaisesRegex(ValueError, "Frozen preparation changed"):
                 p12.score(prepared, responses, root / "result2")
+
+    def test_perfect_scores_do_not_claim_replication_and_post_output_plan_is_rejected(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            prepared, responses = self.synthetic_run(root)
+            raw = json.loads((responses / "batch_01.txt").read_text())
+            raw[1]["predicted_label"] = "Not a smell"
+            p12.dump(responses / "batch_01.txt", raw)
+            with contextlib.redirect_stdout(io.StringIO()):
+                p12.score(prepared, responses, root / "result")
+            summary = json.loads((root / "result/summary.json").read_text())
+            self.assertEqual(summary["metrics"]["accuracy"], 1.0)
+            self.assertNotIn("bounded_capability_check", summary)
+            self.assertEqual(summary["paper_numerical_reproduction"], "INCONCLUSIVE_DIFFERENT_DATA_MODEL_SCOPE")
+            self.assertEqual(summary["course_m2_acceptance"], "NOT_DETERMINED_BY_SCORER")
+            with (root / "result/paper_class_comparison.csv").open() as stream:
+                rows = list(csv.DictReader(stream))
+            absent = next(r for r in rows if r["label"] == "Obvious")
+            self.assertEqual(absent["our_recall"], "NOT_ESTIMABLE")
+            record = json.loads((responses / "run_record.json").read_text())
+            record["interpretation_plan_recorded_at"] = "2000-01-01T03:00:00Z"
+            p12.dump(responses / "run_record.json", record)
+            with self.assertRaisesRegex(ValueError, "after inference"):
+                p12.score(prepared, responses, root / "late-result")
 
     def test_duplicate_ids_and_missing_batches_are_not_dropped(self):
         with tempfile.TemporaryDirectory() as directory:
